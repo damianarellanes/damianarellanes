@@ -39,5 +39,8 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
 
 /* Redirection configuration */
 myWebsite.config(function($urlRouterProvider) {	
-	$urlRouterProvider.when('', '/aboutMe');
+        $urlRouterProvider.when('', '/aboutMe');
+
+        // use the HTML5 History API
+        $locationProvider.html5Mode(true);
 });
