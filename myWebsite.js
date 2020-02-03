@@ -1,4 +1,4 @@
-var myWebsite =  angular.module("myWebsite", ['ui.router', 'scotchy', 'ngAnimate']);
+var myWebsite =  angular.module("myWebsite", ['ui.router', 'ngAnimate']);
 
 /* States configuration */
 myWebsite.config(['$stateProvider', function ($stateProvider) {
@@ -38,25 +38,9 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
 }]);
 
 /* Redirection configuration */
-/*myWebsite.config(function($urlRouterProvider) {	
+myWebsite.config(function($urlRouterProvider) {	
         $urlRouterProvider.when('', '/aboutMe');
 
         // use the HTML5 History API
         $locationProvider.html5Mode(true);
-});*/
-
-myWebsite.config(function($routeProvider, $locationProvider) {
-
-        $routeProvider
-            .when('/', {
-                templateUrl : '/AboutMe.html',
-                controller : aboutMeCtrl
-            })
-            .when('/research', {
-                templateUrl : '/Research.html',
-                controller : researchCtrl
-            });
-
-        // use the HTML5 History API
-        $locationProvider.html5Mode(true);
-    });
+});
