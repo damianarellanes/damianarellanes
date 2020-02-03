@@ -39,5 +39,5 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
 
 /* Redirection configuration */
 myWebsite.config(function($urlRouterProvider) {	
-        $urlRouterProvider.when('', '/aboutMe');
+	$urlRouterProvider.when('', '/aboutMe');
 });
