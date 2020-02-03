@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>	
+	<meta charset="utf-8">
+	<title>Damian Arellanes - Personal Website</title>
+	<meta name="description" content="Damian Arellanes Website">
+	<meta name="keywords" content="damian arellanes, computer science, phd, science">
+	<meta name="author" content="Damian Arellanes">
+	<meta name="description" content="This is the personal website of Damian Arellanes.">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	
+  	<!-- Styles -->		
+  	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">  	
+  	<link rel="stylesheet" href="css/style.css">
+  	<!-- END: Styles -->
+</head>
+
+<body>
+	<!-- Angularjs scripts -->
+	<script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <!-- END: Angularjs scripts -->    
+    	
+	<!-- Application -->
+	<div ng-app="myWebsite" ng-controller="myWebsiteCtrl" class="container-fixed">
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<div ng-include="'views/CommonView.html'"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div ui-view=""></div>
+			</div>
+		</div>	  
+	
+	</div> 
+	<!-- END: Application --> 
+	
+	<!-- Additional Scripts -->	
+  	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+  	<script src="bower_components/bootstrap/js/collapse.js"></script>
+  	<!-- END: Additional Scripts -->
+  	
+  	<!-- Application Definition -->
+    <script src="myWebsite.js"></script>
+    <!-- END: Application Definition -->
+    
+    <!-- Application Models -->
+    <script src="models/commonModel.js"></script>
+    <script src="models/aboutMeModel.js"></script>
+    <script src="models/researchModel.js"></script>
+    <script src="models/experienceModel.js"></script>
+    <script src="models/softwareModel.js"></script>
+    <script src="models/personalModel.js"></script>
+    <!-- END: Application Models -->
+    
+    <!-- Application Controllers -->
+    <script src="controllers/myWebsiteCtrl.js"></script>
+    <script src="controllers/aboutMeCtrl.js"></script>
+    <script src="controllers/researchCtrl.js"></script>
+    <script src="controllers/experienceCtrl.js"></script>
+    <script src="controllers/softwareCtrl.js"></script>
+    <script src="controllers/personalCtrl.js"></script>
+    <!-- END: Application Controllers -->
+    
+    <!-- Application Directives -->
+    <script src="directives/common-view-generator.js"></script>
+    <script src="directives/list-generator.js"></script>
+    <script src="directives/multi-column-generator.js"></script>
+    <script src="directives/paragraph-generator.js"></script>
+    <script src="directives/section-generator.js"></script>
+    <script src="directives/page-generator.js"></script>
+    <!-- END: Application Directives -->
+</body>
+</html>
