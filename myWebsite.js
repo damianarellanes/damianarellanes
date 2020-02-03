@@ -49,11 +49,11 @@ myWebsite.config(function($routeProvider, $locationProvider) {
 
         $routeProvider
             .when('/', {
-                templateUrl : 'views/AboutMe.html',
+                templateUrl : '/AboutMe.html',
                 controller : aboutMeCtrl
             })
             .when('/research', {
-                templateUrl : 'views/Research.html',
+                templateUrl : '/Research.html',
                 controller : researchCtrl
             });
 
