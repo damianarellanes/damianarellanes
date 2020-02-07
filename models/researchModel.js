@@ -120,7 +120,7 @@ var pub9 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Workflow Variability for IoT Systems</b>, <i>To appear</i> in Proceedings of the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), IEEE Computer Society, Umea (Sweden), 16-20 June, 2019. <i>Rank B, Acceptance rate: 35.48%</i>' 
+			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Workflow Variability for IoT Systems</b>, <i>To appear</i> in Proceedings of the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), IEEE Computer Society, Umea (Sweden), 16-20 June, 2019. <i>Rank B, Acceptance rate: 30.00%</i>' 
 		}
 	]
 };
@@ -169,11 +169,19 @@ var thesis1 = {
 		}
 	]
 };
+var thesis2 = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: '<b>D. Arellanes</b>, <b>An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems</b>, PhD Thesis, The University of Manchester, Department of Computer Science, Autum 2019.' 
+		}
+	]
+};
 var theses = {
 	title: 'Theses',
 	icon: 'img/theses-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [thesis1] }
+	  { type: 'list', listType: 'ul', content: [thesis2, thesis1] }
 	]
 };
 /****************************** END: THESES ******************************/
