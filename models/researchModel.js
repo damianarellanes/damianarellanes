@@ -16,7 +16,7 @@ var rproject1_0 = {
 	size: '', 
 	classes: '',
 	columns: [
-		{ size: 'sm-12', content: '<br/><br/><p><b><a href="">D-XMAN Service Model</a></b></p>' }
+		{ size: 'sm-12', content: '<br/><br/><p><b><a href="">DX-MAN Service Composition Model</a></b></p>' }
 	]
 };
 var rproject1_1 = {
@@ -25,7 +25,7 @@ var rproject1_1 = {
 	columns: [
 		{ size: 'sm-6', content: '<img src="img/projects/D-XMAN.png" width="100%" height="100%" />' },		
 		{ size: 'sm-6', classes: '', content: 			
-			'<br/><br/><p>D-XMAN (Distributed X-MAN) is a service model for composing IoT systems algebraically using exogenous connectors as algebraic and variability operators. The semantics of this model allows distribution, variability of behaviour, explicit control flow, location transparency, separation of concerns (data, control and computation), decentralized control flows and decentralized data flows.</p>' }
+			'<br/><br/><p>DX-MAN is an algebraic model for composing IoT services algebraically and incrementally using exogenous composition operators. The semantics of the model allows explicit control flow, distributed workflows, location transparency, decentralised data flows, separation of concerns (data, control and computation) and workflow variability.</p>' }
 	]
 };
 
@@ -45,7 +45,7 @@ var talk1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'K.-K. Lau and <b>D. Arellanes</b>. <b>Componentization Paradigms: Past, Present and Future</b>, 1st International Workshop on Network Intelligence (NI 2018), 19-22 February 2018, Paris, France.' 
+			type: 'text', content: 'Kung-Kiu Lau and Damian Arellanes. Componentization Paradigms: Past, Present and Future, 1st International Workshop on Network Intelligence (NI 2018), 19-22 February 2018, Paris, France.' 
 		}
 	]
 };
@@ -147,7 +147,7 @@ var poster1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>DX-MAN: A Platform For Total Compositionality in Service-Oriented Architectures</b>, Poster session presented at the 7th International Symposium on Cloud and Service Computing (IEEE SC2 2017), Kanazawa (Japan), November 22-25, 2017.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. DX-MAN: A Platform For Total Compositionality in Service-Oriented Architectures, Poster session presented at the 7th International Symposium on Cloud and Service Computing (IEEE SC2 2017), Kanazawa (Japan), November 22-25, 2017.' 
 		}
 	]
 };
@@ -155,7 +155,7 @@ var poster2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Workflow Variability for IoT Systems</b>, Poster session presented at the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), Umea (Sweden), 16-20 June, 2019.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Workflow Variability for IoT Systems, Poster session presented at the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), Umea (Sweden), 16-20 June, 2019.' 
 		}
 	]
 };
@@ -173,7 +173,7 @@ var thesis1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b>, <b>RASupport: flexible, bio-inspired, self-configurable and multi-agent support for resource aggregation in collaborative P2P systems</b>, Masters Thesis, Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Department of Computer Science, Winter 2014.' 
+			type: 'text', content: 'Damian Arellanes, RASupport: flexible, bio-inspired, self-configurable and multi-agent support for resource aggregation in collaborative P2P systems, Masters Thesis, Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Department of Computer Science, Winter 2014.' 
 		}
 	]
 };
@@ -181,7 +181,7 @@ var thesis2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b>, <b>An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems</b>, PhD Thesis, The University of Manchester, Department of Computer Science, Autum 2019.' 
+			type: 'text', content: 'Damian Arellanes, An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems, PhD Thesis, The University of Manchester, Department of Computer Science, Autum 2019.' 
 		}
 	]
 };
@@ -199,7 +199,15 @@ var revConf = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Peer Reviewer (Conferences): The 24th International Conference on Engineering of Complex Computer Systems (ICECCS 2019), 2019 International Conference on Communication Technologies (ComTech 2019), The 29th International Conference on Concurrency Theory (CONCUR 2018), The 23rd International Conference on Engineering of Complex Computer Systems (ICECCS 2018), The 7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018), The 16th International Conference on Software Engineering and Formal Methods (SEFM 2018), The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS 2017), The 21st International Conference on Engineering of Complex Computer Systems (ICECCS 2016), The 14th International Conference on Software Engineering and Formal Methods (SEFM 2016)' 
+			type: 'text', content: 'Peer Reviewer (Conferences): 12th International Conference on Evolving Internet (INTERNET 2020), 8th European Conference on Service-Oriented and Cloud Computing (ESOCC 2020), 16th International Conference on Formal Aspects of Component Software (FACS 2019), 24th International Conference on Engineering of Complex Computer Systems (ICECCS 2019), 2019 International Conference on Communication Technologies (ComTech 2019), The 29th International Conference on Concurrency Theory (CONCUR 2018), The 23rd International Conference on Engineering of Complex Computer Systems (ICECCS 2018), The 7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018), The 16th International Conference on Software Engineering and Formal Methods (SEFM 2018), The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS 2017), The 21st International Conference on Engineering of Complex Computer Systems (ICECCS 2016), The 14th International Conference on Software Engineering and Formal Methods (SEFM 2016)' 
+		}
+	]
+};
+var revJourn = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: 'Peer Reviewer (Journals): Sensors Journal (Internet of Things Section 2020)' 
 		}
 	]
 };
@@ -208,7 +216,7 @@ var reviews = {
 	title: 'Review Services',
 	icon: 'img/review-icon.png',
 	body: [
-	    { type: 'list', listType: 'ul', content: [revConf] }
+	  { type: 'list', listType: 'ul', content: [revJourn, revConf] }
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
