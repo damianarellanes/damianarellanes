@@ -116,7 +116,7 @@ var honorsAwards = {
 	title: 'Honors and Awards',
 	icon: 'img/award-icon.png',
 	body: [
-	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha2, ha3, ha5, ha4] }
+	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha2, ha5, ha4] }
 	]
 };
 /**************************** END: HONORS AND AWARDS ****************************/
