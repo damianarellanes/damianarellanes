@@ -104,7 +104,7 @@ var pub7 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Analysis and Classification of Service Interactions for the Scalability of the Internet of Things. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B, Acceptance rate: 18.6%</i>. <font color="red">Selected as one of the best papers in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC)</font>. <font color="red">Runner up for the Carole Goble medal for outstanding paper in Computer Science.</font>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Analysis and Classification of Service Interactions for the Scalability of the Internet of Things. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B</i>. <b>Acceptance rate: 18.6%</b>. <font color="red">Selected as one of the best papers in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC). Runner up for the Carole Goble medal for outstanding paper in Computer Science.</font>' 
 		}
 	]
 };
@@ -120,7 +120,7 @@ var pub9 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Workflow Variability for IoT Systems. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B, Acceptance rate: 30.0%</i>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Workflow Variability for IoT Systems. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B</i>. <b>Acceptance rate: 30%</b>' 
 		}
 	]
 };
