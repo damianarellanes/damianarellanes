@@ -51,57 +51,44 @@ var education = {
 
 /**************************** HONORS AND AWARDS ****************************/
 var ha1 = {
-	title: 'Second Place in the Best Thesis Award in the Masters Thesis Category on Artificial Intelligence',
+	title: 'Best MSc Thesis on Artificial Intelligence (2015)',
 	body: [
 		{ type: 'text', content: '<a href="http://www.smia.org.mx">Mexican Society for Artificial Intelligence (SMIA)</a>, 2015' },
-		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' },	
+		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' }	
 	]
 };
 var ha2 = {
-	title: 'First-Class Honours in the Masters degree (96%)',
+	title: 'MSc First-Class Honours (2014)',
 	body: [
-		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, 2014' },
-		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' },
-		{ type: 'text', content: 'I achieved the equivalent of a first-class honours, according to the British classification, due to my final score in the Masters degree which is equivalent to 96%.' },
-	]
-};
-var ha3 = {
-	title: 'Masters thesis graded with a perfect mark (100%)',
-	body: [
-		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, 2014' },
-		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' },
-		{ type: 'text', content: 'My Masters thesis was graded a perfect mark of 100%.' },
+		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>' },
+		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' }
 	]
 };
 var ha4 = {
-	title: 'Accepted to study a Master of Science in Computer Science in a High Quality Graduate Program',
+	title: 'Accepted to study a Master of Science in Computer Science in a High Quality Graduate Program (2012)',
 	body: [
-		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, 2012' },
-		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' },
-		{ type: 'text', content: 'I was accepted to study a Masters degree in Computer Science in a High Quality Graduate Program (i.e., a best-ranked program for graduate studies) according to the National Council on Science and Technology (CONACyT). In order to get a vacant in this kind of programs, participants must belong to the top 30 among all the participants taking the entrance exam.' },
+		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>' },
+		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' }
 	]
 };
 var ha5 = {
-	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam 2014',
+	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam (2014)',
 	body: [
-		{ type: 'text', content: 'Google Code Jam, 2014' },		
-		{ type: 'text', content: 'I qualified to the knockout finals in the Google Code Jam 2014. My best ranking was in the 14% of more than 25,000 participants.' },
+		{ type: 'text', content: 'Google Code Jam' }
 	]
 };
 var ha6 = {
-	title: 'Best Paper Award for "Algebraic Service Composition for User-Centric IoT Applications"',
+	title: 'Best Paper Award for the fisrt-authored paper "Algebraic Service Composition for User-Centric IoT Applications" (2018)',
         body: [
-                { type: 'text', content: '<a href="http://www.servicessociety.org/en/">Services Conference Federation (SCF 2018)</a>' }, 
-		{ type: 'text', content: '<a href="http://www.iciot.org/2018/news.html">2018 International Conference on Internet of Things (ICIOT 2018)</a>' },
-		{ type: 'text', content: 'My paper "Algebraic Service Composition for User-Centric IoT Applications" won the best paper award in the 2018 International Conference on Internet of Things (ICIOT 2018).' },
+                { type: 'text', content: '<a href="http://www.servicessociety.org/en/">Services Society</a>' }, 
+		{ type: 'text', content: '<a href="http://www.iciot.org/2018/news.html">2018 International Conference on Internet of Things (ICIOT)</a>' }
 	]
 };
 var ha7 = {
-	title: 'Runner-up in The Next Big Thing competition 2018-2019',
+	title: 'Runner-up in The Next Big Thing competition (2019)',
         body: [
                 { type: 'text', content: '<a href="http://www.manchester.ac.uk/">The University of Manchester</a>' }, 
-		{ type: 'text', content: '<a href="https://umip.com/the-next-big-thing-competition/">The Next Big Thing Competition 2018-2019</a>' },
-		{ type: 'text', content: 'I won the runner-up in "The Next Big Thing" which is a competition for funding that enables the start of a spin-out company based on a technological innovation.' },
+		{ type: 'text', content: '<a href="https://umip.com/the-next-big-thing-competition/">The Next Big Thing Competition 2018-2019</a>' }
 	]
 };
 var ha8 = {
@@ -123,7 +110,7 @@ var honorsAwards = {
 	title: 'Honors and Awards',
 	icon: 'img/award-icon.png',
 	body: [
-	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha2, ha3, ha5, ha4] }
+	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha2, ha5, ha4] }
 	]
 };
 /**************************** END: HONORS AND AWARDS ****************************/
