@@ -51,44 +51,50 @@ var education = {
 
 /**************************** HONORS AND AWARDS ****************************/
 var ha1 = {
-	title: 'Best MSc Thesis on Artificial Intelligence (2015)',
+	title: 'Best MSc Thesis on Artificial Intelligence',
 	body: [
 		{ type: 'text', content: '<a href="http://www.smia.org.mx">Mexican Society for Artificial Intelligence (SMIA)</a>, 2015' },
-		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' }	
+		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' },
+		{ type: 'text', content: 'My Masters thesis was awarded the second place in the Best Thesis Award in the Masters Thesis Category on Artificial Intelligence. This nationwide competition is organised once a year.' },
 	]
 };
 var ha2 = {
-	title: 'MSc First-Class Honours (2014)',
+	title: 'MSc First-Class Honours (96%)',
 	body: [
-		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>' },
-		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' }
+		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, 2014' },
+		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' },
+		{ type: 'text', content: 'I achieved the equivalent of a first-class honours, according to the British classification, due to my final score in the Masters degree.' },
 	]
 };
 var ha4 = {
-	title: 'Accepted to study a Master of Science in Computer Science in a High Quality Graduate Program (2012)',
+	title: 'Accepted to study a MSc in Computer Science in a High Quality Postgraduate Programme',
 	body: [
-		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>' },
-		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' }
+		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, 2012' },
+		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' },
+		{ type: 'text', content: 'I was accepted to study a Masters degree in Computer Science in a a best-ranked program for graduate studies. These kind of programmes are assessed by the National Council on Science and Technology (CONACyT). In order to get a vacant, participants must belong to the top 30 among all the participants taking the entrance exam.' },
 	]
 };
 var ha5 = {
-	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam (2014)',
+	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam 2014',
 	body: [
-		{ type: 'text', content: 'Google Code Jam' }
+		{ type: 'text', content: 'Google Code Jam, 2014' },		
+		{ type: 'text', content: 'I qualified to the knockout finals in the Google Code Jam 2014. My best ranking was in the top 14% among 25,000 participants.' },
 	]
 };
 var ha6 = {
-	title: 'Best Paper Award for the fisrt-authored paper "Algebraic Service Composition for User-Centric IoT Applications" (2018)',
+	title: 'Best Paper Award at ICIOT 2018',
         body: [
                 { type: 'text', content: '<a href="http://www.servicessociety.org/en/">Services Society</a>' }, 
-		{ type: 'text', content: '<a href="http://www.iciot.org/2018/news.html">2018 International Conference on Internet of Things (ICIOT)</a>' }
+		{ type: 'text', content: '<a href="http://www.iciot.org/2018/news.html">2018 International Conference on Internet of Things (ICIOT 2018)</a>' },
+		{ type: 'text', content: 'My paper "Algebraic Service Composition for User-Centric IoT Applications" won the best paper award in the International Conference on Internet of Things (ICIOT 2018).' },
 	]
 };
 var ha7 = {
-	title: 'Runner-up in The Next Big Thing competition (2019)',
+	title: 'Runner-up in The Next Big Thing competition 2018-2019',
         body: [
                 { type: 'text', content: '<a href="http://www.manchester.ac.uk/">The University of Manchester</a>' }, 
-		{ type: 'text', content: '<a href="https://umip.com/the-next-big-thing-competition/">The Next Big Thing Competition 2018-2019</a>' }
+		{ type: 'text', content: '<a href="https://umip.com/the-next-big-thing-competition/">The Next Big Thing Competition 2018-2019</a>' },
+		{ type: 'text', content: 'I won the runner-up in "The Next Big Thing" which is a competition to financially support spin-out companies that offer a technological innovation.' },
 	]
 };
 var ha8 = {
@@ -110,7 +116,7 @@ var honorsAwards = {
 	title: 'Honors and Awards',
 	icon: 'img/award-icon.png',
 	body: [
-	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha2, ha5, ha4] }
+	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha2, ha3, ha5, ha4] }
 	]
 };
 /**************************** END: HONORS AND AWARDS ****************************/
@@ -134,14 +140,14 @@ var sch3 = {
 	title: 'CONACyT Scholarship for MSc Studies',
 	body: [
 		{ type: 'text', content: '<a href="http://www.conacyt.mx/">National Council on Science and Technology (CONACyT)</a>, 2012-2014' },
-		{ type: 'text', content: 'Financial support for postgraduate students who are both studying in a high-ranked research programme in Mexico and having high academic performance.' }
+		{ type: 'text', content: 'Financial support for postgraduate students who study in a highly ranked research programme in Mexico.' }
 	]
 };
 var sch4 = {
 	title: 'PRONABES Scholarship',
 	body: [
 		{ type: 'text', content: '<a href="http://www.sep.gob.mx/swb/sep_en/">Mexican Secretariat of Public Education (SEP)</a>, 2009-2012' },
-		{ type: 'text', content: 'Financial support for undergraduate students who have high academic performance.' }
+		{ type: 'text', content: 'Financial support for undergraduate students with a high academic performance.' }
 	]
 };
 
