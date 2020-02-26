@@ -71,13 +71,13 @@ var ha4 = {
 	body: [
 		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, 2012' },
 		{ type: 'text', content: '<a href="http://www.cs.cinvestav.mx/en">Department of Computer Science</a>, Mexico</div>' },
-		{ type: 'text', content: 'I was accepted to study a Masters degree in Computer Science in a a best-ranked program for graduate studies. These kind of programmes are assessed by the National Council on Science and Technology (CONACyT). In order to get a vacant, participants must belong to the top 30 among all the participants taking the entrance exam.' },
+		{ type: 'text', content: 'I was accepted to study a MSc in Computer Science in a a best-ranked program for postgraduate studies. These kind of programmes are assessed by the National Council on Science and Technology (CONACyT). In order to get a vacant, participants must belong to the top 30 among hundreds of participants taking the entrance exam.' },
 	]
 };
 var ha5 = {
 	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam 2014',
 	body: [
-		{ type: 'text', content: 'Google Code Jam, 2014' },		
+		{ type: 'text', content: '<a href="https://www.go-hero.net/jam/14/name/damian.arellanes">Google Code Jam</a>' },		
 		{ type: 'text', content: 'I qualified to the knockout finals in the Google Code Jam 2014. My best ranking was in the top 14% among 25,000 participants.' },
 	]
 };
