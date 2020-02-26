@@ -64,7 +64,7 @@ var pub1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b>, S. Mendoza, and D. Decouchant, <b>Support for resource aggregation in collaborative P2P systems</b>, In Proceedings of the 11th International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE), IEEE, 2014.' 
+			type: 'text', content: '<b>Damian Arellanes</b>, Sonia Mendoza and Dominique Decouchant. Support for resource aggregation in collaborative P2P systems. In International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE), pages 1-6. IEEE, 2014.' 
 		}
 	]
 };
@@ -72,7 +72,7 @@ var pub3 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Exogenous Connectors for Hierarchical Service Composition</b>, In Proceedings of the 10th International Conference on Service Oriented Computing and Applications (SOCA), IEEE, 2017.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Exogenous Connectors for Hierarchical Service Composition. In International Conference on Service Oriented Computing and Applications (SOCA), pages 125-132. IEEE, 2017.' 
 		}
 	]
 };
@@ -80,7 +80,7 @@ var pub4 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>D-XMAN: A Platform For Total Compositionality in Service-Oriented Architectures</b>, In Proceedings of the 7th International Symposium on Cloud and Service Computing (SC2), IEEE, 2017.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. D-XMAN: A Platform For Total Compositionality in Service-Oriented Architectures. In International Symposium on Cloud and Service Computing (SC2), pages 283-286. IEEE, 2017.' 
 		}
 	]
 };
@@ -88,7 +88,7 @@ var pub5 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'E. El Hayek, G. B. Yahia, <b>D. Arellanes</b> and K-K. Lau, <b>Analysis of Component-Based Approaches Toward Componentized 5G</b>, In International Conference on Innovation in Clouds, Internet and Networks (ICIN), IEEE, 2018.' 
+			type: 'text', content: 'Elie El Hayek, Imen Grida Ben Yahia, <b>Damian Arellanes</b> and Kung-Kiu Lau. Analysis of Component-Based Approaches Toward Componentized 5G. In International Conference on Innovation in Clouds, Internet and Networks (ICIN), pages 1-5. IEEE, 2018.' 
 		}
 	]
 };
@@ -96,7 +96,7 @@ var pub6 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Algebraic Service Composition for User-Centric IoT Applications</b>, In Proceedings of the International Conference on Internet of Things (ICIOT), Springer, 2018. <font color="red">Best Paper Award</font>.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Algebraic Service Composition for User-Centric IoT Applications. In International Conference on Internet of Things (ICIOT), pages 56-69. Springer, 2018. <font color="red">Best Paper Award</font>.' 
 		}
 	]
 };
@@ -104,7 +104,7 @@ var pub7 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Analysis and Classification of Service Interactions for the Scalability of the Internet of Things</b>, In Proceedings of the International Congress on Internet of Things (ICIOT), IEEE, 2018. <i>Core Ranking B, Acceptance rate: 18.6%</i>. <font color="red">Selected as one of the best papers in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC)</font>. <font color="red">Runner up for the Carole Goble medal for outstanding paper in Computer Science</font>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Analysis and Classification of Service Interactions for the Scalability of the Internet of Things. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B, Acceptance rate: 18.6%</i>. <font color="red">Selected as one of the best papers in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC)</font>. <font color="red">Runner up for the Carole Goble medal for outstanding paper in Computer Science.</font>' 
 		}
 	]
 };
@@ -112,7 +112,7 @@ var pub8 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Decentralized Data Flows in Algebraic Service Compositions for the Scalability of IoT Systems</b>, In Proceedings of the 5th World Forum on Internet of Things (WF-IoT), IEEE, 2019.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Decentralized Data Flows in Algebraic Service Compositions for the Scalability of IoT Systems. In World Forum on Internet of Things (WF-IoT), pages 668-673. IEEE, 2019.' 
 		}
 	]
 };
@@ -120,7 +120,7 @@ var pub9 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Workflow Variability for IoT Systems</b>, In Proceedings of the 16th International Conference on Autonomic Computing (ICAC), IEEE, 2019. <i>Rank B, Acceptance rate: 30.0%</i>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Workflow Variability for IoT Systems. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B, Acceptance rate: 30.0%</i>' 
 		}
 	]
 };
@@ -128,7 +128,7 @@ var pub10 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>D. Arellanes</b> and K-K. Lau, <b>Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems</b>, <i>To appear</i> in Future Generation Computer Systems Journal. <b>Impact Factor 2018: 5.77</b>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems. <i>To appear</i> in Future Generation Computer Systems Journal. Elsevier, 2020. <b>Impact Factor 2018: 5.77</b>' 
 		}
 	]
 };
