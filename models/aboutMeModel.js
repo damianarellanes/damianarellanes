@@ -130,7 +130,7 @@ var sch1 = {
 	]
 };
 var sch2 = {
-	title: 'Reinforcement Scholarship for PhD Studies',
+	title: 'Complementary Scholarship for PhD Studies',
 	body: [
 		{ type: 'text', content: '<a href="http://www.sep.gob.mx/swb/sep_en/">Mexican Secretariat of Public Education (SEP)</a>, 2015-2016 and 2017-2018' },
 		{ type: 'text', content: 'Additional financial support for studying a PhD abroad.' }
