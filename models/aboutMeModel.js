@@ -13,7 +13,7 @@ var resume = {
 
 /**************************** EDUCATION ****************************/
 var ed1 = {
-	title: 'PhD in Computer Science, (2015-2019)',
+	title: 'PhD in Computer Science (2015-2019)',
 	body: [
 
 	        { type: 'text', content: 'Thesis title:<i>"An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems"</i>' },
@@ -23,7 +23,7 @@ var ed1 = {
 	]
 };
 var ed2 = {
-	title: 'MSc in Computer Science, (2012-2014)',
+	title: 'MSc in Computer Science (2012-2014)',
 	body: [
 		{ type: 'text', content: 'Thesis title:<i>"RASupport: flexible, bio-inspired, auto-configurable, and multi-agent support for resource aggregation in collaborative P2P systems"</i>' },
 	        { type: 'text', content: '<font color="red">Best MSc Thesis in Artificial Intelligence</font>' },
@@ -32,7 +32,7 @@ var ed2 = {
 	]
 };
 var ed3 = {
-	title: 'BSc in Computer Science, (2008-2012)',
+	title: 'BSc in Computer Science (2008-2012)',
 	body: [
 		{ type: 'text', content: 'Thesis title:<i>"P2P network for the detection and the adquisition of illegal files"</i>' },
 		{ type: 'link', ref: 'http://www.isc.escom.ipn.mx/', content: 'Superior School of Computing of the National Polytechnic Institute (ESCOM-IPN)' },
@@ -54,8 +54,7 @@ var ha1 = {
 	title: 'Second Place in the Best Thesis Award in the Masters Thesis Category on Artificial Intelligence',
 	body: [
 		{ type: 'text', content: '<a href="http://www.smia.org.mx">Mexican Society for Artificial Intelligence (SMIA)</a>, 2015' },
-		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' },
-		{ type: 'text', content: 'My Masters thesis was awarded the second place in the Best Thesis Award in the Masters Thesis Category on Artificial Intelligence, which is a national contest organised once a year.' },
+		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' },	
 	]
 };
 var ha2 = {
