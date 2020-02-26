@@ -137,7 +137,7 @@ var publications = {
 	title: 'Refereed Publications',
 	icon: 'img/publications-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [pub, 10pub9,pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  { type: 'list', listType: 'ul', content: [pub10, pub9,pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
