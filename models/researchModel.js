@@ -1,5 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'The Internet of Things (IoT) is an emergent paradigm that promises the interconnection of (physical and virtual) things through innovative distributed services. Like traditional enterprise services, IoT services are composed with other services so as to yield more complex behaviours. However, unlike traditional enterprise systems, IoT systems will require the composition of billions of services as the number of connected things (and therefore services) is growing exponentially. Thus, scalability becomes a crucial concern for the full realisation of IoT systems. <br/><br/>My research focuses on the design of an algebraic service model, DX-MAN, for the composition of large-scale IoT systems where services and (exogenous) variability operators are first-class entities. In particular, DX-MAN provides (i) explicit control flow; (ii) separation between, control, data, computation and autonomicity; (iii) decentralized data flows; (iv) distributed control flows; (v) location transparency; and (vi) workflow variability. The model has been evaluated qualitatively to show properties (i), (ii), (v) and (vi), and quantitatively for showing properties (iii) and (iv).';
+var researchInterestsDesc = 'The Internet of Things (IoT) is an emergent paradigm that promises the interconnection of (physical and virtual) things through innovative distributed services. Like traditional enterprise services, IoT services are composed with other services to yield more complex behaviours. However, unlike traditional enterprise systems, IoT systems will require the composition of billions of services as the number of connected things (and therefore services) is growing exponentially. Thus, scalability becomes a crucial concern for the full realisation of IoT systems. <br/><br/>My current research focuses on the design of an algebraic service model, DX-MAN, for the composition of complex, large-scale IoT systems where services and (exogenous) composition operators are first-class semantic entities. In particular, DX-MAN provides (i) explicit control flow; (ii) separation between, control, data, computation and autonomicity; (iii) decentralised data flows; (iv) distributed workflows; (v) location transparency; and (vi) workflow variability. The model has been evaluated qualitatively to show properties (i), (ii), (v) and (vi), and quantitatively for showing properties (iii) and (iv).';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -11,7 +11,7 @@ var researchInterests = {
 /**************************** END: RESEARCH INTERESTS ****************************/
 
 /**************************** RESEARCH PROJECTS ****************************/
-var researchProjectsDesc = 'I am particularly interested in collaborations between the Academy and the Industry. The following lists the projects in which I am involved as part of my ongoing research.';
+var researchProjectsDesc = '';
 var rproject1_0 = {
 	size: '', 
 	classes: '',
@@ -25,7 +25,7 @@ var rproject1_1 = {
 	columns: [
 		{ size: 'sm-6', content: '<img src="img/projects/D-XMAN.png" width="100%" height="100%" />' },		
 		{ size: 'sm-6', classes: '', content: 			
-			'<br/><br/><p>DX-MAN is an algebraic model for composing IoT services algebraically and incrementally using exogenous composition operators. The semantics of the model allows explicit control flow, distributed workflows, location transparency, decentralised data flows, separation of concerns (data, control and computation) and workflow variability.</p>' }
+			'<p>DX-MAN is an algebraic model for composing IoT services algebraically and incrementally using exogenous composition operators. The semantics of the model allows explicit control flow, distributed workflows, location transparency, decentralised data flows, separation of concerns (data, control and computation) and workflow variability.</p>' }
 	]
 };
 
@@ -147,7 +147,7 @@ var poster1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. DX-MAN: A Platform For Total Compositionality in Service-Oriented Architectures, Poster session presented at the 7th International Symposium on Cloud and Service Computing (IEEE SC2 2017), Kanazawa (Japan), November 22-25, 2017.' 
+			type: 'text', content: 'Damian Arellanes and Kung-Kiu Lau. DX-MAN: A Platform For Total Compositionality in Service-Oriented Architectures, Poster session presented at the 7th International Symposium on Cloud and Service Computing (IEEE SC2 2017), Kanazawa (Japan), November 22-25, 2017.' 
 		}
 	]
 };
@@ -155,7 +155,7 @@ var poster2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Workflow Variability for IoT Systems, Poster session presented at the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), Umea (Sweden), 16-20 June, 2019.' 
+			type: 'text', content: 'Damian Arellanes and Kung-Kiu Lau. Workflow Variability for IoT Systems, Poster session presented at the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), Umea (Sweden), 16-20 June, 2019.' 
 		}
 	]
 };
@@ -199,7 +199,7 @@ var revConf = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Peer Reviewer (Conferences): 12th International Conference on Evolving Internet (INTERNET 2020), 8th European Conference on Service-Oriented and Cloud Computing (ESOCC 2020), 16th International Conference on Formal Aspects of Component Software (FACS 2019), 24th International Conference on Engineering of Complex Computer Systems (ICECCS 2019), 2019 International Conference on Communication Technologies (ComTech 2019), The 29th International Conference on Concurrency Theory (CONCUR 2018), The 23rd International Conference on Engineering of Complex Computer Systems (ICECCS 2018), The 7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018), The 16th International Conference on Software Engineering and Formal Methods (SEFM 2018), The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS 2017), The 21st International Conference on Engineering of Complex Computer Systems (ICECCS 2016), The 14th International Conference on Software Engineering and Formal Methods (SEFM 2016)' 
+			type: 'text', content: 'Peer Reviewer (Conferences): 12th International Conference on Evolving Internet (INTERNET 2020), 8th European Conference on Service-Oriented and Cloud Computing (ESOCC 2020), 16th International Conference on Formal Aspects of Component Software (FACS 2019), 24th International Conference on Engineering of Complex Computer Systems (ICECCS 2019), 2019 International Conference on Communication Technologies (ComTech 2019), The 29th International Conference on Concurrency Theory (CONCUR 2018), The 23rd International Conference on Engineering of Complex Computer Systems (ICECCS 2018), The 7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018), The 16th International Conference on Software Engineering and Formal Methods (SEFM 2018), The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS 2017), The 21st International Conference on Engineering of Complex Computer Systems (ICECCS 2016), The 14th International Conference on Software Engineering and Formal Methods (SEFM 2016).' 
 		}
 	]
 };
@@ -207,13 +207,13 @@ var revJourn = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Peer Reviewer (Journals): Sensors Journal (Internet of Things Section 2020)' 
+			type: 'text', content: 'Peer Reviewer (Journals): Sensors Journal (Internet of Things Section 2020).' 
 		}
 	]
 };
 
 var reviews = {
-	title: 'Review Services',
+	title: 'Professional Services',
 	icon: 'img/review-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [revJourn, revConf] }
