@@ -128,7 +128,7 @@ var pub10 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems. <i>To appear</i> in Future Generation Computer Systems Journal. Elsevier, 2020. <b>Impact Factor 2018: 5.77</b>' 
+			type: 'text', content: '<b>Journal Papers<\b><\br><b>Damian Arellanes</b> and Kung-Kiu Lau. Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems. <i>To appear</i> in Future Generation Computer Systems Journal. Elsevier, 2020. <b>Impact Factor 2018: 5.77</b>' 
 		}
 	]
 };
