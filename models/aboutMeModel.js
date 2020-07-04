@@ -35,7 +35,7 @@ var ed3 = {
 	title: 'BEng in Computer Systems (2008-2012)',
 	body: [
 	        { type: 'text', content: 'Thesis title:<i>"P2P network for the detection and the adquisition of illegal files"</i>' },
-         	{ type: 'text', content: '<font color="red">Second-Upper Class Honours</font>' },
+         	{ type: 'text', content: '<font color="red">Upper Second-Class Honours</font>' },
 		{ type: 'link', ref: 'http://www.isc.escom.ipn.mx/', content: 'School of Computing' },
 		{ type: 'text', content: '<a href="http://www.ipn.mx/english/Paginas/Inicio.aspx">National Polytechnic Institute (IPN)</a>, Mexico' }
 	]
