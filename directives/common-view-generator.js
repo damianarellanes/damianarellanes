@@ -57,7 +57,7 @@ myWebsite.directive('commonViewGenerator', function ($rootScope) {
     		'</div>' +
     		'<div class="col-sm-3">' +
     			'<!-- University Emblem -->' +
-    			'<img src="{{ contactInfo.universityEmblem }}" style="width: 75px;height:150px; overflow: hidden;" /></a>' +    	
+    			'<img src="{{ contactInfo.universityEmblem }}" style="width: 150px;height:133px; overflow: hidden;margin-left:30px" /></a>' +    	
     		'</div>' +
   		'</div>' +
 	'</div>' 

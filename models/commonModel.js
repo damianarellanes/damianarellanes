@@ -1,7 +1,7 @@
 /**************************** HEADER ****************************/
 var header = {
 	uniLogo: 'img/logos/UoM.png',
-	schoolName: 'Department of Computer Science'
+	schoolName: 'School of Computing and Communications'
 };
 /**************************** END: HEADER ****************************/
 
@@ -17,14 +17,14 @@ var navigatorInfo = [tab1, tab2, tab3, tab4, tab5];
 
 /**************************** CONTACT ****************************/
 var contactInfo = {
-	picture: '',
-	name: 'Dr. Damian Arellanes, Research Associate',
-	researchGroup: '<a href="http://www.cs.manchester.ac.uk/our-research/groups/software-systems/">Software Systems Group</a>',
-	school: '<a href="http://www.manchester.ac.uk/">Department of Computer Science</a>',
-	university: '<a href="http://www.manchester.ac.uk/">The University of Manchester</a>',
+	picture: 'img/Damian-Arellanes-Photo.jpg',
+	name: 'Damian Arellanes<br\>Lecturer (Assistant Professor)',
+	researchGroup: '<a href="https://dslab.lancs.ac.uk/">Distributed Systems Group</a>',
+	school: '<a href="https://www.lancaster.ac.uk/scc/">School of Computing and Communications</a>',
+	university: '<a href="https://www.lancaster.ac.uk/">Lancaster University</a>',
 	universityEmblem: 'img/logos/UoM_2.png',
-	contactDetails: 'Kilburn Building <br />' +
-    			'Oxford Road, Manchester M13 9PL, United Kingdom <br />' +
-    			'Email: damian [DOT] arellanesmolina [AT] manchester [DOT] ac [DOT] uk'
+	contactDetails: 'InfoLab21 <br />' +
+    			'Lancaster LA1 4WA, United Kingdom <br />' +
+    			'Email: <img src="img/email.png" \>'
 };
 /**************************** END: CONTACT ****************************/

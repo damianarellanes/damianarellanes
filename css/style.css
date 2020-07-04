@@ -97,8 +97,8 @@ background: url(../img/22.jpg); /*14.png,15.gif*//*9,10,11,16*//*22,26,27*/
 .span2 h1 {
 	border-bottom: 1px solid #0091ed;
 	font-family: "Open Sans",sans-serif;
-	font-size: 26px;
-	font-weight: 400;
+	font-size: 24px;
+	font-weight: 500;
 	margin: 0;	
 }
 
@@ -139,13 +139,13 @@ li > .title, .title {
 }
 .header .school-name {
 	line-height: 2em;
-	color: #660099;
-	font-size: 2em;
+	color: #000000;
+	font-size: 1.5em;
 }
 
 /***** Profile *****/
 .profile h3 {
-	font-weight: bold;
+	font-weight: 300;
 	font-size: 19px;
 	margin: 6px 0 0 0;
 }
@@ -155,8 +155,8 @@ li > .title, .title {
 }
 .profile .span1 img {
 	padding: 0px 0 0 0; 
-	width: 240px;
-	height: 240px; 	
+	width: 180px;
+	height: 270px; 	
 }
 
 /***** About me *****/

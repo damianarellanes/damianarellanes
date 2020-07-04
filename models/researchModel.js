@@ -1,5 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'The Internet of Things (IoT) is an emergent paradigm that promises the interconnection of (physical and virtual) things through innovative distributed services. Like traditional enterprise services, IoT services are composed with other services to yield more complex behaviours. However, unlike traditional enterprise systems, IoT systems will require the composition of billions of services as the number of connected things (and therefore services) is growing exponentially. Thus, scalability becomes a crucial concern for the full realisation of IoT systems. <br/><br/>My current research focuses on the design of an algebraic service model, DX-MAN, for the composition of complex, large-scale IoT systems where services and (exogenous) composition operators are first-class semantic entities. In particular, DX-MAN provides (i) explicit control flow; (ii) separation between, control, data, computation and autonomicity; (iii) decentralised data flows; (iv) distributed workflows; (v) location transparency; and (vi) workflow variability. The model has been evaluated qualitatively to show properties (i), (ii), (v) and (vi), and quantitatively for showing properties (iii) and (iv).';
+var researchInterestsDesc = 'My core research focuses on the area of distributed systems and, more specifically, on software models for the compositional construction of autonomous systems in the context of the Internet of Things (IoT). Currently, I investigate the fundamental semantics of service-oriented models to tackle the scale and the complexity of IoT. I have a strong interest in the theoretical aspects that enable self-* properties (e.g., self-healing, self-optimisation, self-reconfiguration, etc.) and the compositional construction of autonomous IoT software systems. These theoretical aspects are grounded in philosophy and are ultimately relevant to applied computing in diverse IoT domains (e.g., Smart Cities, End-User Programming and Connected Health).';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -16,7 +16,7 @@ var rproject1_0 = {
 	size: '', 
 	classes: '',
 	columns: [
-		{ size: 'sm-12', content: '<br/><br/><p><b><a href="">DX-MAN Service Composition Model</a></b></p>' }
+		{ size: 'sm-12', content: '<br/><br/><p><b><a href="">DX-MAN: An Algebraic Model for the Compositional Construction of Autonomous IoT Systems</a></b></p>' }
 	]
 };
 var rproject1_1 = {
@@ -45,7 +45,7 @@ var talk1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Kung-Kiu Lau and Damian Arellanes. Componentization Paradigms: Past, Present and Future, 1st International Workshop on Network Intelligence (NI 2018), 19-22 February 2018, Paris, France.' 
+			type: 'text', content: 'Kung-Kiu Lau and <b>Damian Arellanes</b>. Componentization Paradigms: Past, Present and Future, 1st International Workshop on Network Intelligence (NI 2018), 19-22 February 2018, Paris, France.' 
 		}
 	]
 };
@@ -147,7 +147,7 @@ var poster1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Damian Arellanes and Kung-Kiu Lau. DX-MAN: A Platform For Total Compositionality in Service-Oriented Architectures, Poster session presented at the 7th International Symposium on Cloud and Service Computing (IEEE SC2 2017), Kanazawa (Japan), November 22-25, 2017.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. DX-MAN: A Platform For Total Compositionality in Service-Oriented Architectures, Poster session presented at the 7th International Symposium on Cloud and Service Computing (IEEE SC2 2017), Kanazawa (Japan), November 22-25, 2017.' 
 		}
 	]
 };
@@ -155,7 +155,7 @@ var poster2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Damian Arellanes and Kung-Kiu Lau. Workflow Variability for IoT Systems, Poster session presented at the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), Umea (Sweden), 16-20 June, 2019.' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. Workflow Variability for IoT Systems, Poster session presented at the 16th IEEE International Conference on Autonomic Computing (ICAC 2019), Umea (Sweden), 16-20 June, 2019.' 
 		}
 	]
 };
@@ -173,7 +173,7 @@ var thesis1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Damian Arellanes, RASupport: flexible, bio-inspired, self-configurable and multi-agent support for resource aggregation in collaborative P2P systems, Masters Thesis, Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Department of Computer Science, Winter 2014.' 
+			type: 'text', content: '<b>Damian Arellanes</b>, RASupport: flexible, bio-inspired, self-configurable and multi-agent support for resource aggregation in collaborative P2P systems, Masters Thesis, Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Department of Computer Science, Winter 2014.' 
 		}
 	]
 };
@@ -181,7 +181,7 @@ var thesis2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Damian Arellanes, An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems, PhD Thesis, The University of Manchester, Department of Computer Science, Autum 2019.' 
+			type: 'text', content: '<b>Damian Arellanes</b>, An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems, PhD Thesis, The University of Manchester, Department of Computer Science, Autum 2019.' 
 		}
 	]
 };
@@ -207,7 +207,7 @@ var revJourn = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Peer Reviewer (Journals): Sensors Journal (Internet of Things Section 2020).' 
+			type: 'text', content: 'Peer Reviewer (Journals): Sensors Journal (Internet of Things Section 2020), Electronics Journal (Artificial Intelligence Section 2020).' 
 		}
 	]
 };

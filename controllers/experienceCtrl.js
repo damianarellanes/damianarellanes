@@ -1,6 +1,6 @@
 myWebsite.controller('experienceCtrl', function ($scope) {
 		
 	// See models/experienceModel
-	$scope.experienceSections = [innovationSoftware, professionalExperience, teaching, academicResearchProjects, technicalSkills, languageSkills];
+	$scope.experienceSections = [innovationSoftware, professionalExperience, teaching, technicalSkills, languageSkills];
 	
 });
