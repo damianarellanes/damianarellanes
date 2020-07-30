@@ -52,39 +52,39 @@ var education = {
 
 /**************************** AWARDS ****************************/
 var ha1 = {
-	title: 'Best MSc Thesis on Artificial Intelligence',
+	title: 'Best MSc Thesis on Artificial Intelligence (2015)',
 	body: [
-		{ type: 'text', content: '<a href="http://www.smia.org.mx">Mexican Society for Artificial Intelligence (SMIA)</a>, 2015' },
-		{ type: 'text', content: '<a href="http://www.micai.org/2015">International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>, Mexico' }
+		{ type: 'text', content: '<a href="http://www.smia.org.mx">Mexican Society for Artificial Intelligence (SMIA)</a>' },
+		{ type: 'text', content: '<a href="http://www.micai.org/2015">Mexican International Conference on Artifical Intelligence \'15 (MICAI 2015)</a>' }
 	]
 };
 var ha5 = {
-	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam 2014',
+	title: 'Knockout finals (top 14%) in the International Programming Contest Google Code Jam (2014)',
 	body: [
 		{ type: 'text', content: '<a href="https://www.go-hero.net/jam/14/name/damian.arellanes">Google Code Jam</a>' }
 	]
 };
 var ha6 = {
-	title: 'Best Paper Award at ICIOT 2018',
+	title: 'Best Paper Award at ICIOT (2018)',
         body: [
                 { type: 'text', content: '<a href="http://www.servicessociety.org/en/">Services Society</a>' }, 
 		{ type: 'text', content: '<a href="http://www.iciot.org/2018/news.html">2018 International Conference on Internet of Things (ICIOT 2018)</a>' }
 	]
 };
 var ha7 = {
-	title: 'Second Prize in The Next Big Thing competition 2018-2019',
+	title: 'Second Prize in The Next Big Thing competition (2019)',
         body: [
 		{ type: 'text', content: '<a href="https://umip.com/the-next-big-thing-competition/">The Next Big Thing Competition 2018-2019</a>' }
 	]
 };
 var ha8 = {
-	title: 'Runner-up for the Carole Goble Medal for Outstanding Doctoral Paper in Computer Science (2019)',
+	title: 'Second Prize for Outstanding Doctoral Paper in Computer Science (2019)',
         body: [
                 { type: 'text', content: '<a href="http://www.manchester.ac.uk/">The University of Manchester</a>' }
 	]
 };
 var ha9 = {
-	title: 'Nick Sanders Kickstarter Fund',
+	title: 'Nick Sanders Kickstarter Fund (2019)',
         body: [
                 { type: 'text', content: '<a href="https://www.alliancembs.manchester.ac.uk/study/masood-enterprise-centre/">Masood Enterprise Centre, Alliance MBS</a>' }
 	]
