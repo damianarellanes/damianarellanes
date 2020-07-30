@@ -32,7 +32,7 @@ var ed2 = {
 	]
 };
 var ed3 = {
-	title: 'BEng in Computer Systems (2008-2012)',
+	title: 'BEng in Computer Systems Engineering (2008-2012)',
 	body: [
 	        { type: 'text', content: 'Thesis title:<i>"P2P network for the detection and the adquisition of illegal files"</i>' },
          	{ type: 'text', content: '<font color="red">Upper Second-Class Honours</font>' },
