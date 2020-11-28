@@ -1,5 +1,5 @@
 /**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at Lancaster University, with a prime focus on software engineering models for the scale and the complexity of the Internet of Things (IoT). Currently, I am developing a novel IoT programming model for the compositional construction of service-oriented IoT systems by using algebraic composition operators. This model, known as DX-MAN, underlies the principles of a workflow variability theory which allows the autonomic evolution of software behaviour at run-time (under highly dynamic contexts). The current state of the model derived a startup business proposal that won the Nick Sanders Kickstarter Fund (Masood Enterprise Centre) and the second prize in the Next Big Thing competition (Manchester, UK). It also won the Best Paper Award at the International Conference on Internet of Things (ICIOT 2018) and was the runner-up for the Carole Goble Medal (The University of Manchester).'
+var resumeDesc = 'I am a Lecturer (Tenured-track Professor) in Computer Science at Lancaster University, with a prime focus on software engineering models for the scale and the complexity of the Internet of Things (IoT). Currently, I am developing a novel IoT programming model for the compositional construction of service-oriented IoT systems by using algebraic composition operators. This model, known as DX-MAN, underlies the principles of a workflow variability theory which allows the autonomic evolution of software behaviour at run-time (under highly dynamic contexts). The current state of the model derived a startup business proposal that won the Nick Sanders Kickstarter Fund (Masood Enterprise Centre) and the second prize in the Next Big Thing competition (Manchester, UK). It also won the Best Paper Award at the International Conference on Internet of Things (ICIOT 2018) and was the runner-up for the Carole Goble Medal (The University of Manchester).'
 
 var resume = { 
 	title: '',
@@ -35,7 +35,6 @@ var ed3 = {
 	title: 'BEng in Computer Systems Engineering (2008-2012)',
 	body: [
 	        { type: 'text', content: 'Thesis title:<i>"P2P network for the detection and the adquisition of illegal files"</i>' },
-         	{ type: 'text', content: '<font color="red">Upper Second-Class Honours</font>' },
 		{ type: 'link', ref: 'http://www.isc.escom.ipn.mx/', content: 'School of Computing' },
 		{ type: 'text', content: '<a href="http://www.ipn.mx/english/Paginas/Inicio.aspx">National Polytechnic Institute (IPN)</a>, Mexico' }
 	]
