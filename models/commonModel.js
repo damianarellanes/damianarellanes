@@ -18,7 +18,7 @@ var navigatorInfo = [tab1, tab2, tab3, tab4, tab5];
 /**************************** CONTACT ****************************/
 var contactInfo = {
 	picture: 'img/Damian-Arellanes-Photo.jpg',
-	name: 'Damian Arellanes<br\>Lecturer (Assistant Professor)',
+	name: 'Damian Arellanes<br\>Lecturer (Tenured-track Professor)',
 	researchGroup: '<a href="https://dslab.lancs.ac.uk/">Distributed Systems Group</a>',
 	school: '<a href="https://www.lancaster.ac.uk/scc/">School of Computing and Communications</a>',
 	university: '<a href="https://www.lancaster.ac.uk/">Lancaster University</a>',
