@@ -1,5 +1,7 @@
 /**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Tenured-track Professor) in Computer Science at Lancaster University, with a prime focus on software engineering models for the scale and the complexity of the Internet of Things (IoT). Currently, I am developing a novel IoT programming model for the compositional construction of service-oriented IoT systems by using algebraic composition operators. This model, known as DX-MAN, underlies the principles of a workflow variability theory which allows the autonomic evolution of software behaviour at run-time (under highly dynamic contexts). The current state of the model derived a startup business proposal that won the Nick Sanders Kickstarter Fund (Masood Enterprise Centre) and the second prize in the Next Big Thing competition (Manchester, UK). It also won the Best Paper Award at the International Conference on Internet of Things (ICIOT 2018) and was the runner-up for the Carole Goble Medal (The University of Manchester).'
+var resumeDesc = 'I am a tenured-track Professor in Computer Science at Lancaster University, with a prime focus on models of computation for the Internet of Things (IoT). To date, I have developed an algebraic programming model for the compositional construction of service-oriented IoT systems. This model, known as DX-MAN, underlies the principles of a workflow variability theory which allows the autonomic evolution of software behaviour at run-time (under highly dynamic contexts). The current state of the model derived a startup business proposal that won the Nick Sanders Kickstarter Fund (Masood Enterprise Centre) and the second prize in the Next Big Thing competition (Manchester, UK). It also won the Best Paper Award at the International Conference on Internet of Things (ICIOT 2018) and was the runner-up for the Carole Goble Medal (The University of Manchester).<\br><\br>
+
+<b>I am currently accepting PhD proposals in the areas of: (i) Program Synthesis, (ii) Autonomous/Self-Adaptive Software Systems, (iii) Models of computation for the Internet of Things, and (v) Foundational Semantics for Service-Oriented Computing. Please email me your CV, academic transcripts and a research proposal (2 pages).<\b>'
 
 var resume = { 
 	title: '',
@@ -93,7 +95,7 @@ var honorsAwards = {
 	title: 'Awards',
 	icon: 'img/award-icon.png',
 	body: [
-	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha5] }
+	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, ha5, sch1, sch2, sch3, sch4] }
 	]
 };
 /**************************** END: HONORS AND AWARDS ****************************/
