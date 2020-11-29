@@ -23,7 +23,7 @@
 var ibm = {
 	title: 'Full-Stack Software Engineer (2015)',
 	body: [
-		{ type: 'text', content: 'International Business Machines (IBM)' },
+	  { type: 'text', content: 'International Business Machines (IBM)' },
 		{ type: 'text', content: 'Working in an international team made up of people from Brazil, Argentina, United States, and China. My activities were the following: unit, stress, and integration testing; Web development (back-end and front-end) using J2EE; software architecture; support to existent applications; design and development of tools for software developers by using generative programming techniques; process automation; bugs detection and fixing; code review and inspection; scripting; and data migration.' }
 	]
 }; 
@@ -46,55 +46,69 @@ var professionalExperience = {
 
 
 /**************************** TEACHING EXPERIENCE ****************************/
-var teachingDesc = 
-'Nowadays, I am working as teaching assistant in the <a href="http://www.cs.manchester.ac.uk/">School of Computer Science, The University of Manchester</a> where I have two main activities: (1) offering assistance to undergraduate students to enable them  to understand and complete their coursework and (2) marking the work (i.e., exams and lab exercises) of students according to a designated marking scheme. In particular, I am teaching assistant in the following courses:';
+var teachingLancaster = 'Currently, I am delivering the following modules in the <a href="http://www.lucbjtu.ac.uk/en/">School of Computing and Communications at Lancaster BJTU</a>:';
+var teachingManchester = 
+'Previously, I was a teaching assistant in the <a href="http://www.cs.manchester.ac.uk/">Department of Computer Science at The University of Manchester</a>, where I assisted the following courses:';
+//var teachingDesc = 
+//'Previously, I was a teaching assistant in the <a href="http://www.cs.manchester.ac.uk/">Department of Computer Science at The University of Manchester</a> where I have two main activities: (1) offering assistance to students to enable them to understand and complete their coursework and (2) marking exams and lab exercises of students according to a designated marking scheme. Particularly, I was a teaching assistant in the following courses:';
 var teaching1 = {
 	title: 'COMP28112: Distributed Computing (Undergraduate course)',
 	body: [
-		{ type: 'text', content: 'Second Semester (2016, 2017, 2018 and 2019)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~rizos/">Dr. Rizos Sakellariou</a>' }
+		{ type: 'text', content: 'Second Semester (2016, 2017, 2018 and 2019)' }
 	]
 };
 var teaching2 = {
 	title: 'COMP23420: Software Engineering (Undergraduate course)',
 	body: [
-		{ type: 'text', content: 'First Semester (2017)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~embury/">Dr. Suzanne Embury</a>' }
+		{ type: 'text', content: 'First Semester (2017)' }
 	]
 };
 var teaching3 = {
 	title: 'COMP33711: Agile Software Engineering (Undergraduate course)',
 	body: [
-		{ type: 'text', content: 'First Semester (2017)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~embury/">Dr. Suzanne Embury</a>' }
+		{ type: 'text', content: 'First Semester (2017)' }
 	]
 };
 var teaching4 = {
 	title: 'COMP10120: First Year Team Project (Undergraduate course)',
 	body: [
-		{ type: 'text', content: 'First Semester (2017, 2018 and 2019)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~sattler/">Prof. Uli Sattler</a>' }
+		{ type: 'text', content: 'First Semester (2017, 2018 and 2019)' }
 	]
 };
 var teaching5 = {
 	title: 'COMP18112: Fundamentals of Distributed Systems (Undergraduate course)',
 	body: [
-		{ type: 'text', content: 'Second Semester (2017 and 2018)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~alvaro/">Dr. Alvaro A. A. Fernandes</a>' }
+		{ type: 'text', content: 'Second Semester (2017 and 2018)' }
 	]
 };
 var teaching6 = {
 	title: 'COMP62532: Component-Based Software Development (Masters course)',
 	body: [
-		{ type: 'text', content: 'Second Semester (2017, 2018 and 2019)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~kung-kiu/">Dr. Kung-Kiu Lau</a>' }
+		{ type: 'text', content: 'Second Semester (2017, 2018 and 2019)' }
 	]
 };
 var teaching7 = {
 	title: 'COMP60411: Modelling Data on the Web (Undergraduate course)',
 	body: [
-		{ type: 'text', content: 'First Semester (2019)' },
-		{ type: 'text', content: 'Course Supervisor: <a href="http://www.cs.man.ac.uk/~sattler/">Prof. Uli Sattler</a>' }
+		{ type: 'text', content: 'First Semester (2019)' }
+	]
+};
+var teaching8 = {
+	title: 'CNSCC212: Advanced Programming (Undergraduate course)',
+	body: [
+		{ type: 'text', content: 'Summer Term' }
+	]
+};
+var teaching9 = {
+	title: 'CNSCC202: Human-Computer Interaction (Undergraduate course)',
+	body: [
+		{ type: 'text', content: 'Summer Term' }
+	]
+};
+var teaching10 = {
+	title: 'CNSCC363: Security and Risk (Undergraduate course)',
+	body: [
+		{ type: 'text', content: 'Summer Term' }
 	]
 };
 
@@ -102,7 +116,9 @@ var teaching = {
 	title: 'Teaching',
 	icon: 'img/teaching-icon.png',
 	body: [
-		{ type: 'text', content:teachingDesc },
+                { type: 'text', content:teachingLancaster },
+          { type: 'list', content: [teaching8, teaching9, teaching10] },
+	        { type: 'text', content:teachingManchester },
 	        { type: 'list', content: [teaching6, teaching1, teaching5, teaching7, teaching4, teaching2, teaching3] }
 	]
 };
@@ -110,7 +126,7 @@ var teaching = {
 
 
 /**************************** INNOVATION SOFTWARE ****************************/
-var innovationDesc = 'I have expertise in developing and innovating within the software industry. The respective Intelectual Property Rights of my creations have been transferred to some clients.';
+var innovationDesc = 'I have developed three pieces of innovation software whose Intelectual Property Rights have been transferred.';
 var i1 = {
 	title: 'PPROVigi Web',
 	body: [
@@ -352,8 +368,8 @@ var r1 = {
 	columns: [
 		{ size: 'sm-4', classes: 'title', content: 'Programming' },
 		{ size: 'sm-8', classes: '', content: 
-			'<p><b>Advanced: </b>C, PHP, Java, and JavaScript.</p>' +
-			'<p><b>Intermediate: </b>C# (.NET MVC framework), C++, Objective-C, Scratch, Matlab, Assembler, and Python.</p>' +
+			'<p><b>Advanced: </b>C, PHP, Java, Erlang and JavaScript.</p>' +
+			'<p><b>Intermediate: </b>C# (.NET MVC framework), C++, Objective-C, Scratch, Matlab, Assembler and Python.</p>' +
 			'<p><b>Basic: </b>Go, Eiffel and Prolog.</p>'
 		}
 	]

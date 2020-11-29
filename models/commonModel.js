@@ -12,13 +12,13 @@ var tab3 = { link: 'experience', tag: 'Experience' };
 var tab4 = { link: 'software', tag: 'Software' };
 var tab5 = { link: 'personal', tag: 'Personal' };
 
-var navigatorInfo = [tab1, tab2, tab3, tab4, tab5];
+var navigatorInfo = [tab1, tab2, tab3, tab5];
 /**************************** END:NAV ****************************/
 
 /**************************** CONTACT ****************************/
 var contactInfo = {
 	picture: 'img/Damian-Arellanes-Photo.jpg',
-	name: 'Damian Arellanes<br\>Lecturer (Tenured-track Professor)',
+	name: 'Damian Arellanes<br\><div style="font-size:20px">Lecturer (Tenured-track Professor)</div>',
 	researchGroup: '<a href="https://dslab.lancs.ac.uk/">Distributed Systems Group</a>',
 	school: '<a href="https://www.lancaster.ac.uk/scc/">School of Computing and Communications</a>',
 	university: '<a href="https://www.lancaster.ac.uk/">Lancaster University</a>',
