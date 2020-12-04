@@ -205,35 +205,35 @@ var ha9 = {
 
 /**************************** SCHOLARSHIPS ****************************/
 var sch1 = {
-	title: 'CONACyT Scholarship for PhD Studies',
+	title: 'PhD Research Fellowship',
 	body: [
 		{ type: 'text', content: '<a href="http://www.conacyt.mx/">National Council on Science and Technology (CONACyT)</a>, 2015-2019' }//,
 		//{ type: 'text', content: 'Financial support (tuition fees, health care, and living allowances) for PhD studies at the University of Manchester, United Kingdom.' }
 	]
 };
 var sch2 = {
-	title: 'Complementary Scholarship for PhD Studies',
+	title: 'Complementary PhD Scholarship',
 	body: [
 		{ type: 'text', content: '<a href="http://www.sep.gob.mx/swb/sep_en/">Mexican Secretariat of Public Education (SEP)</a>, 2017-2018' }//,
 		//{ type: 'text', content: 'Additional financial support for studying a PhD abroad.' }
 	]
 };
 var sch3 = {
-	title: 'CONACyT Scholarship for MSc Studies',
+	title: 'MSc Research Fellowship',
 	body: [
 		{ type: 'text', content: '<a href="http://www.conacyt.mx/">National Council on Science and Technology (CONACyT)</a>, 2012-2014' }//,
 		//{ type: 'text', content: 'Financial support for postgraduate students who study in a highly ranked research programme in Mexico.' }
 	]
 };
 var sch4 = {
-	title: 'PRONABES Scholarship',
+	title: 'PRONABES BEng Scholarship',
 	body: [
 		{ type: 'text', content: '<a href="http://www.sep.gob.mx/swb/sep_en/">Mexican Secretariat of Public Education (SEP)</a>, 2009-2012' }//,
 		//{ type: 'text', content: 'Financial support for undergraduate students with a high academic performance.' }
 	]
 };
 var sch5 = {
-	title: 'Complementary Scholarship for PhD Studies',
+	title: 'Complementary PhD Scholarship',
 	body: [
 		{ type: 'text', content: '<a href="http://www.sep.gob.mx/swb/sep_en/">Mexican Secretariat of Public Education (SEP)</a>, 2015-2016' }//,
 		//{ type: 'text', content: 'Additional financial support for studying a PhD abroad.' }

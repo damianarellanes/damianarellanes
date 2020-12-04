@@ -19,27 +19,45 @@
 	]
 };*/ 
 
-/**************************** PROFESSIONAL EXPERIENCE ****************************/
+/**************************** ACADEMIC AND PROFESSIONAL EXPERIENCE ****************************/
+var lecturer = {
+	title: 'Lecturer (Tenured-track Professor) in Computer Science (2020-Present)',
+	body: [
+		{ type: 'text', content: 'Lancaster University' }
+	]
+};
+var researchAssociate = {
+	title: 'Research Associate (2019-2020)',
+	body: [
+		{ type: 'text', content: 'The University of Manchester' }
+	]
+};
+var teachingAssistant = {
+	title: 'Teaching Assistant (2015-2019)',
+	body: [
+		{ type: 'text', content: 'The University of Manchester' }
+	]
+};
 var ibm = {
 	title: 'Full-Stack Software Engineer (2015)',
 	body: [
-	  { type: 'text', content: 'International Business Machines (IBM)' },
-		{ type: 'text', content: 'Working in an international team made up of people from Brazil, Argentina, United States, and China. My activities were the following: unit, stress, and integration testing; Web development (back-end and front-end) using J2EE; software architecture; support to existent applications; design and development of tools for software developers by using generative programming techniques; process automation; bugs detection and fixing; code review and inspection; scripting; and data migration.' }
+	  { type: 'text', content: 'International Business Machines (IBM)' }//,
+		//{ type: 'text', content: 'Working in an international team made up of people from Brazil, Argentina, United States, and China. My activities were the following: unit, stress, and integration testing; Web development (back-end and front-end) using J2EE; software architecture; support to existent applications; design and development of tools for software developers by using generative programming techniques; process automation; bugs detection and fixing; code review and inspection; scripting; and data migration.' }
 	]
 }; 
 var freelance = {
 	title: 'Software Engineer Consultant and Project Manager (2011-2014)',
 	body: [
-		{ type: 'text', content: 'VVC Systems and Communications' },
-		{ type: 'text', content: 'I was involved in the design and development of Web applications using cutting-edge Web technologies (e.g., J2EEE, PHP, HTML5, AJAX, Jquery, Javascript, etc.) and frameworks (e.g., Hibernate, Struts 2, Doctrine, Zends, etc.); requirements engineering, project management using Extreme Programming (XP) and prototyping methodologies; and software innovation (I developed three innovation software with copyrights).' }
+		{ type: 'text', content: 'VVC Systems and Communications' }//,
+		//{ type: 'text', content: 'I was involved in the design and development of Web applications using cutting-edge Web technologies (e.g., J2EEE, PHP, HTML5, AJAX, Jquery, Javascript, etc.) and frameworks (e.g., Hibernate, Struts 2, Doctrine, Zends, etc.); requirements engineering, project management using Extreme Programming (XP) and prototyping methodologies; and software innovation (I developed three innovation software with copyrights).' }
 	]
 };
 
 var professionalExperience = {
-	title: 'Industrial Experience',
+	title: 'Academic and Industrial Experience',
 	icon: 'img/professional-icon.png',
 	body: [
-		{ type: 'list', content: [ibm, freelance] }
+	  { type: 'list', content: [lecturer, researchAssociate, teachingAssistant, ibm, freelance] }
 	]
 };
 /**************************** END: PROFESSIONAL EXPERIENCE ****************************/
@@ -131,21 +149,24 @@ var i1 = {
 	title: 'PPROVigi Web',
 	body: [
 		{ type: 'text', content: 'Registration number: 03-2014-081312252200-01' },
-		{ type: 'text', content: 'Country: Mexico' }
+         	{ type: 'text', content: 'Country: Mexico' }//,
+                //{ type: 'link', ref: 'https://www.propharmaresearch.com/en/pprovigi', content: 'More Info' }
 	]
 };
 var i2 = {
 	title: 'PPROVigi Android',
 	body: [
 		{ type: 'text', content: 'Registration number: 03-2014-081312295500-01' },
-		{ type: 'text', content: 'Country: Mexico' }
+		{ type: 'text', content: 'Country: Mexico' }//,
+                //{ type: 'link', ref: 'https://www.propharmaresearch.com/en/pprovigi-report', content: 'More Info' }
 	]
 };  
 var i3 = {
 	title: 'PPROVigi iOS',
 	body: [
 		{ type: 'text', content: 'Registration number: 03-2014-081312320600-01' },
-		{ type: 'text', content: 'Country: Mexico' }
+		{ type: 'text', content: 'Country: Mexico' }//,
+                //{ type: 'link', ref: 'https://www.propharmaresearch.com/en/pprovigi-report', content: 'More Info' }
 	]
 };
 
