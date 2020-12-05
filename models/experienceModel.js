@@ -48,7 +48,7 @@ var ibm = {
 var freelance = {
 	title: 'Software Engineer Consultant and Project Manager (2011-2014)',
 	body: [
-		{ type: 'text', content: 'VVC Systems and Communications' }//,
+		{ type: 'text', content: 'Freelance' }//,
 		//{ type: 'text', content: 'I was involved in the design and development of Web applications using cutting-edge Web technologies (e.g., J2EEE, PHP, HTML5, AJAX, Jquery, Javascript, etc.) and frameworks (e.g., Hibernate, Struts 2, Doctrine, Zends, etc.); requirements engineering, project management using Extreme Programming (XP) and prototyping methodologies; and software innovation (I developed three innovation software with copyrights).' }
 	]
 };
@@ -57,7 +57,7 @@ var professionalExperience = {
 	title: 'Academic and Industrial Experience',
 	icon: 'img/professional-icon.png',
 	body: [
-	  { type: 'list', content: [lecturer, researchAssociate, teachingAssistant, ibm, freelance] }
+	  { type: 'list', content: [lecturer, researchAssociate, teachingAssistant, ibm] }
 	]
 };
 /**************************** END: PROFESSIONAL EXPERIENCE ****************************/
