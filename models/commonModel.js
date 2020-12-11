@@ -9,10 +9,10 @@ var header = {
 var tab1 = { link: 'aboutMe', tag: 'Home' };
 var tab2 = { link: 'research', tag: 'Research' };
 var tab3 = { link: 'experience', tag: 'Experience' };
-var tab4 = { link: 'software', tag: 'Software' };
-var tab5 = { link: 'personal', tag: 'Personal' };
+var tab4 = { link: 'personal', tag: 'Personal' };
+var tab5 = { link: 'awards', tag: 'Awards' };
 
-var navigatorInfo = [tab1, tab2, tab3, tab5];
+var navigatorInfo = [tab1, tab2, tab5, tab3, tab4];
 /**************************** END:NAV ****************************/
 
 /**************************** CONTACT ****************************/

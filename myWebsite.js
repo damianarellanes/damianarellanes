@@ -3,7 +3,7 @@ var myWebsite =  angular.module("myWebsite", ['ui.router', 'ngAnimate']);
 /* States configuration */
 myWebsite.config(['$stateProvider', function ($stateProvider) {
 	
-	var aboutMe = {
+    var aboutMe = {
         url: '/aboutMe',
         templateUrl: 'views/AboutMe.html',
         controller: 'aboutMeCtrl'
@@ -27,6 +27,11 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
         url: '/personal',
         templateUrl: 'views/Personal.html',
         controller: 'personalCtrl'
+    },
+    awards = {
+        url: '/awards',
+        templateUrl: 'views/Awards.html',
+        controller: 'awardsCtrl'
     };
 	
     $stateProvider    	    	
@@ -34,7 +39,8 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
        	.state('research', research)
        	.state('experience', experience)
        	.state('software', software)
-       	.state('personal', personal);
+        .state('personal', personal)
+        .state('awards', awards);
 }]);
 
 /* Redirection configuration */
