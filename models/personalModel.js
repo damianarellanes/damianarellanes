@@ -41,7 +41,7 @@ var music4 =
 
 var music = {
 	title: 'Music',
-	icon: 'img/music-icon.png',
+	//icon: 'img/music-icon.png',
 	body: [
 		{ type: 'multi-column', content: [music1, music2] },
 		{ type: 'text', content: music3 }
@@ -70,7 +70,7 @@ var contests2 = {
 
 var contests = {
 	title: 'Programming Contests and Online Judges',
-	icon: 'img/programming-icon.png',
+	//icon: 'img/programming-icon.png',
 	body: [
 		{ type: 'text', content: contestsIntro },
 		{ type: 'list', content: [contests1, contests2] }
@@ -97,7 +97,7 @@ var soc2 = {
 
 var internationalSocieties = {
 	title: 'International Societies',
-	icon: 'img/societies-icon.png',
+	//icon: 'img/societies-icon.png',
 	body: [
 		{ type: 'list', content: [soc1, soc2] }
 	]
@@ -113,7 +113,7 @@ var visitedPlaces =  '<img src="img/visited-countries.png" />';
 	
 var hobbies = {
 	title: 'Hobbies',
-	icon: 'img/hobbies-icon.png',
+	//icon: 'img/hobbies-icon.png',
 	body: [
 		{ type: 'text', content: hobbiesStatement },
                 { type: 'text', content: hobbiesQuote },
@@ -154,7 +154,7 @@ var ed3 = {
 
 var education = {
 	title: 'Education',
-	icon: 'img/education-icon.png',
+	//icon: 'img/education-icon.png',
 	body: [
 		{ type: 'list', content: [ed1, ed2, ed3] }
 	]

@@ -88,7 +88,7 @@ var scholarships = {
 
 var awards = {
 	title: 'Awards',
-	icon: 'img/award-icon.png',
+	//icon: 'img/award-icon.png',
 	body: [
 	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, sch1, sch2, sch5, sch3, sch4] }
 	]

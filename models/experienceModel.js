@@ -55,7 +55,7 @@ var freelance = {
 
 var professionalExperience = {
 	title: 'Academic and Industrial Experience',
-	icon: 'img/professional-icon.png',
+	//icon: 'img/professional-icon.png',
 	body: [
 	  { type: 'list', content: [lecturer, researchAssociate, teachingAssistant, ibm] }
 	]
@@ -132,7 +132,7 @@ var teaching10 = {
 
 var teaching = {
 	title: 'Teaching',
-	icon: 'img/teaching-icon.png',
+	//icon: 'img/teaching-icon.png',
 	body: [
                 { type: 'text', content:teachingLancaster },
           { type: 'list', content: [teaching8, teaching9, teaching10] },
@@ -172,7 +172,7 @@ var i3 = {
 
 var innovationSoftware = {
 	title: 'Patents and Copyrights',
-	icon: 'img/innovation-icon.png',
+	//icon: 'img/innovation-icon.png',
 	body: [
 		{ type: 'text', content: innovationDesc },
 		{ type: 'list', content: [i1, i2, i3] }
@@ -374,7 +374,7 @@ var p20 = {
 
 var academicResearchProjects = {
 	title: 'Main Academic and Research Projects',
-	icon: 'img/project-icon-2.png',
+	//icon: 'img/project-icon-2.png',
 	body: [
 	    { type: 'list', content: [p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20] }
 	]
@@ -489,7 +489,7 @@ var r12 = {
 
 var technicalSkills = {
 	title: 'Technical Skills',
-	icon: 'img/skills-icon.png',
+	//icon: 'img/skills-icon.png',
 	body: [
 		{ type: 'multi-column', content: [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12] }
 	]
@@ -517,7 +517,7 @@ var ls2 = {
 
 var languageSkills = {
 	title: 'Language Skills',
-	icon: 'img/language-icon.png',
+	//icon: 'img/language-icon.png',
 	body: [
 		{ type: 'multi-column', content: [ls1, ls2] }
 	]

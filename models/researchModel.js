@@ -3,7 +3,7 @@ var researchInterestsDesc = 'My core research focuses on the area of <i>software
 
 var researchInterests = {
 	title: 'Research Interests',
-	icon: 'img/research-icon.png',
+	//icon: 'img/research-icon.png',
 	body: [
 		{ type: 'text', content: researchInterestsDesc }
 	]
@@ -32,7 +32,7 @@ var rproject1_1 = {
 
 var researchProjects = {
 	title: 'Projects',
-	icon: 'img/research-project-icon.png',
+	//icon: 'img/research-project-icon.png',
 	body: [
 		{ type: 'text', content: researchProjectsDesc },
 	    { type: 'multi-column', content: [rproject1_0, rproject1_1] }
@@ -52,7 +52,7 @@ var talk1 = {
 
 var talks = {
 	title: 'Keynotes',
-	icon: 'img/talks-icon.png',
+	//icon: 'img/talks-icon.png',
 	body: [
 	    { type: 'list', listType: 'ul', content: [talk1] }
 	]
@@ -135,7 +135,7 @@ var pub10 = {
 
 var publications = {
 	title: 'Refereed Publications',
-	icon: 'img/publications-icon.png',
+	//icon: 'img/publications-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [pub10, pub9,pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
@@ -161,7 +161,7 @@ var poster2 = {
 };
 var posters = {
 	title: 'Posters',
-	icon: 'img/posters-icon.png',
+	//icon: 'img/posters-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [poster2, poster1] }
 	]
@@ -187,7 +187,7 @@ var thesis2 = {
 };
 var theses = {
 	title: 'Theses',
-	icon: 'img/theses-icon.png',
+	//icon: 'img/theses-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [thesis2, thesis1] }
 	]
@@ -214,7 +214,7 @@ var revJourn = {
 
 var reviews = {
 	title: 'Professional Services',
-	icon: 'img/review-icon.png',
+	//icon: 'img/review-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [revJourn, revConf] }
 	]
