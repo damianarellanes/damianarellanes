@@ -21,7 +21,7 @@
 
 /**************************** ACADEMIC AND PROFESSIONAL EXPERIENCE ****************************/
 var lecturer = {
-	title: 'Lecturer (Tenured-track Professor) in Computer Science (2020-Present)',
+	title: 'Researcher and Lecturer (Assistant Professor) in Computer Science (2020-Present)',
 	body: [
 		{ type: 'text', content: 'Lancaster University' }
 	]
@@ -57,7 +57,7 @@ var professionalExperience = {
 	title: 'Academic and Industrial Experience',
 	//icon: 'img/professional-icon.png',
 	body: [
-	  { type: 'list', content: [lecturer, researchAssociate, teachingAssistant, ibm] }
+	  { type: 'list', content: [lecturer, researchAssociate, teachingAssistant, ibm, freelance] }
 	]
 };
 /**************************** END: PROFESSIONAL EXPERIENCE ****************************/
@@ -70,61 +70,61 @@ var teachingManchester =
 //var teachingDesc = 
 //'Previously, I was a teaching assistant in the <a href="http://www.cs.manchester.ac.uk/">Department of Computer Science at The University of Manchester</a> where I have two main activities: (1) offering assistance to students to enable them to understand and complete their coursework and (2) marking exams and lab exercises of students according to a designated marking scheme. Particularly, I was a teaching assistant in the following courses:';
 var teaching1 = {
-	title: 'COMP28112: Distributed Computing (Undergraduate course)',
+	title: 'COMP28112: Distributed Computing (BSc course)',
 	body: [
 		{ type: 'text', content: 'Second Semester (2016, 2017, 2018 and 2019)' }
 	]
 };
 var teaching2 = {
-	title: 'COMP23420: Software Engineering (Undergraduate course)',
+	title: 'COMP23420: Software Engineering (BSc course)',
 	body: [
 		{ type: 'text', content: 'First Semester (2017)' }
 	]
 };
 var teaching3 = {
-	title: 'COMP33711: Agile Software Engineering (Undergraduate course)',
+	title: 'COMP33711: Agile Software Engineering (BSc course)',
 	body: [
 		{ type: 'text', content: 'First Semester (2017)' }
 	]
 };
 var teaching4 = {
-	title: 'COMP10120: First Year Team Project (Undergraduate course)',
+	title: 'COMP10120: First Year Team Project (BSc course)',
 	body: [
 		{ type: 'text', content: 'First Semester (2017, 2018 and 2019)' }
 	]
 };
 var teaching5 = {
-	title: 'COMP18112: Fundamentals of Distributed Systems (Undergraduate course)',
+	title: 'COMP18112: Fundamentals of Distributed Systems (BSc course)',
 	body: [
 		{ type: 'text', content: 'Second Semester (2017 and 2018)' }
 	]
 };
 var teaching6 = {
-	title: 'COMP62532: Component-Based Software Development (Masters course)',
+	title: 'COMP62532: Component-Based Software Development (MSc course)',
 	body: [
 		{ type: 'text', content: 'Second Semester (2017, 2018 and 2019)' }
 	]
 };
 var teaching7 = {
-	title: 'COMP60411: Modelling Data on the Web (Undergraduate course)',
+	title: 'COMP60411: Modelling Data on the Web (BSc course)',
 	body: [
 		{ type: 'text', content: 'First Semester (2019)' }
 	]
 };
 var teaching8 = {
-	title: 'CNSCC212: Advanced Programming (Undergraduate course)',
+	title: 'CNSCC212: Advanced Programming (BSc course)',
 	body: [
 		{ type: 'text', content: 'Summer Term' }
 	]
 };
 var teaching9 = {
-	title: 'CNSCC202: Human-Computer Interaction (Undergraduate course)',
+	title: 'CNSCC202: Human-Computer Interaction (BSc course)',
 	body: [
 		{ type: 'text', content: 'Summer Term' }
 	]
 };
 var teaching10 = {
-	title: 'CNSCC363: Security and Risk (Undergraduate course)',
+	title: 'CNSCC363: Security and Risk (BSc course)',
 	body: [
 		{ type: 'text', content: 'Summer Term' }
 	]

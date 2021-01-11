@@ -32,6 +32,11 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
         url: '/awards',
         templateUrl: 'views/Awards.html',
         controller: 'awardsCtrl'
+    },
+    team = {
+        url: '/team',
+        templateUrl: 'views/Team.html',
+        controller: 'teamCtrl'
     };
 	
     $stateProvider    	    	
@@ -40,7 +45,8 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
        	.state('experience', experience)
        	.state('software', software)
         .state('personal', personal)
-        .state('awards', awards);
+        .state('awards', awards)
+        .state('team', team);
 }]);
 
 /* Redirection configuration */
