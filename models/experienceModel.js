@@ -106,7 +106,7 @@ var teaching6 = {
 	]
 };
 var teaching7 = {
-	title: 'COMP60411: Modelling Data on the Web (BSc course)',
+	title: 'COMP60411: Modelling Data on the Web (MSc course)',
 	body: [
 		{ type: 'text', content: 'First Semester (2019)' }
 	]
