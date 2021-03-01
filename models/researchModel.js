@@ -1,5 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'My core research focuses on the area of <i>software models for distributed systems</i> and, more specifically, on autonomic models of computation for the Internet of Things (IoT).<br/><br/>To date, I have discovered the notion of <b>workflow spaces</b> which are computational structures that underpin the foundations of <i>algebraic composition</i>. This notion led me to the development of an <b>algebra of control flow spaces</b> that allows the compositional construction of (variable) service-oriented IoT systems.<br/><br/>Currently, I investigate the fundamental semantics of autonomicity in algebraic service-oriented models for tackling the scale and the complexity of IoT. I have a strong interest in the theory of self-* properties (e.g., self-composition, self-optimisation, self-reconfiguration, etc.) for realising autonomous IoT software systems. Like any other branch of theoretical Computer Science, this theory is grounded in philosophy and it is ultimately relevant to applied computing in diverse IoT domains (e.g., Smart Cities, End-User Programming and Connected Health).';
+var researchInterestsDesc = 'My core research focuses on the area of <i>software models for distributed systems</i> and, more specifically, on autonomic models of computation for Cyber-Physical Systems (CPS).<br/><br/>To date, I have discovered the notion of <b>workflow spaces</b> which are computational structures that underpin the foundations of <i>algebraic composition</i>. This notion led me to the development of an <b>single-sorted algebra of control flow spaces</b> that allows the compositional construction of (variable) service-oriented systems.<br/><br/>Currently, I investigate the fundamental semantics of autonomicity in algebraic software models for tackling the scale and the complexity of future CPS environments (like the Internet of Things). I have a strong interest in the theory of self-* properties (e.g., self-composition, self-optimisation, self-reconfiguration, etc.) for realising autonomicity. Like any other branch of theoretical Computer Science, this theory is grounded in philosophy and it is ultimately relevant to applied computing in diverse CPS domains (e.g., Smart Cities, Smart Homes and Connected Health).';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -104,7 +104,7 @@ var pub7 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2018-AnalysisInteractions.pdf">Analysis and Classification of Service Interactions for the Scalability of the Internet of Things</a>. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B</i>. <b>Acceptance rate: 18.6%</b>. <font color="red">Selected as one of the best papers in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC). Runner up for the Carole Goble medal for outstanding paper in Computer Science.</font>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2018-AnalysisInteractions.pdf">Analysis and Classification of Service Interactions for the Scalability of the Internet of Things</a>. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B</i>. <i>Acceptance rate: 18.6%</i>. Selected as a <font color="red">Best Paper</font> in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC). Runner up for the <font color="red">Carole Goble medal</font> for outstanding paper in Computer Science.' 
 		}
 	]
 };
@@ -120,7 +120,7 @@ var pub9 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2019-WorkflowVariability.pdf">Workflow Variability for IoT Systems</a>. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B</i>. <b>Acceptance rate: 30%</b>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2019-WorkflowVariability.pdf">Workflow Variability for IoT Systems</a>. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B</i>. <i>Acceptance rate: 30%<i/>.' 
 		}
 	]
 };
@@ -128,7 +128,15 @@ var pub10 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2020-EvaluationIoT.pdf">Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems</a>. Future Generation Computer Systems Journal, 108:827-848, 2020. <b>Impact Factor 2018: 5.77</b>' 
+			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2020-EvaluationIoT.pdf">Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems</a>. Future Generation Computer Systems Journal, 108:827-848, 2020.' 
+		}
+	]
+};
+var pub11 = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: '<b>Damian Arellanes</b>. <a target="_blank" href="https://arxiv.org/pdf/2009.12844v2.pdf">Self-Organizing Software Models for the Internet of Things</a>. To appear in IEEE Systems, Man, and Cybernetics Magazine, 2021.' 
 		}
 	]
 };
@@ -137,7 +145,7 @@ var publications = {
 	title: 'Refereed Publications',
 	//icon: 'img/publications-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [pub10, pub9,pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  { type: 'list', listType: 'ul', content: [pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/

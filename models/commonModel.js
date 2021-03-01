@@ -13,7 +13,7 @@ var tab4 = { link: 'personal', tag: 'Personal' };
 var tab5 = { link: 'awards', tag: 'Awards' };
 var tab6 = { link: 'team', tag: 'Team' };
 
-var navigatorInfo = [tab1, tab2, tab6, tab5, tab3, tab4];
+var navigatorInfo = [tab1, tab6, tab5, tab4];
 /**************************** END:NAV ****************************/
 
 /**************************** CONTACT ****************************/
