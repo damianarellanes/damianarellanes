@@ -25,7 +25,7 @@ var contactInfo = {
 	university: '<a href="https://www.lancaster.ac.uk/">Lancaster University</a>',
 	universityEmblem: 'img/logos/UoM_2.png',
 	contactDetails: 'InfoLab21 <br />' +
-    			'Lancaster LA1 4YW, United Kingdom <br />' +
+    			'Lancaster LA1 4WA, United Kingdom <br />' +
     			'Email: <img src="img/email.png" \>'
 };
 /**************************** END: CONTACT ****************************/

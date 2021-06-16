@@ -56,21 +56,21 @@ var teamMsc = {
 
 /**************************** BSc ****************************/
 var bsc1 = {
-	title: 'Shicheng Yang (expected 2021)',
+	title: 'Shicheng Yang (2021)',
   body: [
                 { type: 'text', content: 'Lancaster University' },
                 { type: 'text', content: 'Thesis: <i>Development of IoT Workflows Triggered by Voice Commands<\i>' }
 	]
 };
 var bsc2 = {
-	title: 'Zhengtong Liu (expected 2021)',
+	title: 'Zhengtong Liu (2021)',
   body: [
                 { type: 'text', content: 'Lancaster University' },
                 { type: 'text', content: 'Thesis: <i>Dynamic Visualisation of IoT Workflows<\i>' }
 	]
 };
 var bsc3 = {
-	title: 'Wang Yirun (expected 2021)',
+	title: 'Wang Yirun (2021)',
   body: [
                 { type: 'text', content: 'Lancaster University' },
                 { type: 'text', content: 'Thesis: <i>Stream Processing as a Service with Automatic KPI Anomaly Detection and Root Cause Localisation<\i>' }
