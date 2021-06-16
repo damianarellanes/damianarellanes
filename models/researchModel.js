@@ -142,7 +142,7 @@ var pub11 = {
 };
 
 var publications = {
-	title: 'Selected Refereed Publications',
+	title: 'Peer Reviewed Publications',
 	//icon: 'img/publications-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
@@ -208,7 +208,7 @@ var pc1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '13th IEEE/ACM International Conference on Utility and Cloud Computing (<a href="https://www.cs.le.ac.uk/events/UCC2020/index.htm">UCC 2020</a>)' 
+			type: 'link', ref: 'https://www.cs.le.ac.uk/events/UCC2020/index.htm', content: '13th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2020)' 
 		}
 	]
 };
@@ -216,7 +216,7 @@ var pc2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '12th International Conference on Evolving Internet (<a href="https://www.iaria.org/conferences2020/INTERNET20.html">INTERNET 2020</a>)' 
+			type: 'link', ref: 'https://www.iaria.org/conferences2020/INTERNET20.html', content: '12th International Conference on Evolving Internet (INTERNET 2020)' 
 		}
 	]
 };
@@ -224,7 +224,7 @@ var pc3 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '16th International Conference on Formal Aspects of Component Software (<a href="http://facs2019.org/">FACS 2019</a>)' 
+			type: 'link', ref: 'http://facs2019.org/', content: '16th International Conference on Formal Aspects of Component Software (FACS 2019)' 
 		}
 	]
 };
@@ -232,7 +232,7 @@ var pc4 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '16th International Conference on Software Engineering and Formal Methods (<a href="https://www.isf.cs.tu-bs.de/cms/events/sefm2018/">SEFM 2018</a>)' 
+			type: 'link', ref: 'https://www.isf.cs.tu-bs.de/cms/events/sefm2018/', content: '16th International Conference on Software Engineering and Formal Methods (SEFM 2018)' 
 		}
 	]
 };
@@ -240,7 +240,7 @@ var pc5 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '14th International Conference on Software Engineering and Formal Methods (<a href="http://staf2016.conf.tuwien.ac.at/sefm/">SEFM 2016</a>)' 
+		        type: 'link', ref: 'http://staf2016.conf.tuwien.ac.at/sefm/', content: '14th International Conference on Software Engineering and Formal Methods (SEFM 2016)' 
 		}
 	]
 };
@@ -271,10 +271,10 @@ var reviews = {
 	title: 'Professional Services',
 	//icon: 'img/review-icon.png',
         body: [
-		{ type: 'text', content: pcIntro },
-    	        { type: 'list', content: [pc1, pc2, pc3, pc4, pc5] },
-	        { type: 'text', content: revJournIntro },
+                { type: 'bold', content: revJournIntro },
 		{ type: 'list', content: [revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] }
+		{ type: 'bold', content: pcIntro },
+    	        { type: 'list', content: [pc1, pc2, pc3, pc4, pc5] }	        
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
