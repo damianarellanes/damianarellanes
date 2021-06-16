@@ -142,7 +142,7 @@ var pub11 = {
 };
 
 var publications = {
-	title: 'Refereed Publications',
+	title: 'Selected Refereed Publications',
 	//icon: 'img/publications-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
@@ -203,28 +203,75 @@ var theses = {
 /****************************** END: THESES ******************************/
 
 /**************************** REVIEW COMMITTEE ****************************/
-var revConf = {
+var pcIntro = 'Programme Committee Member';
+var pc1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Peer Reviewer (Conferences): 13th IEEE/ACM International Conference on Utility and Cloud Computing (UCC), 12th International Conference on Evolving Internet (INTERNET 2020), 8th European Conference on Service-Oriented and Cloud Computing (ESOCC 2020), 16th International Conference on Formal Aspects of Component Software (FACS 2019), 24th International Conference on Engineering of Complex Computer Systems (ICECCS 2019), 2019 International Conference on Communication Technologies (ComTech 2019), The 29th International Conference on Concurrency Theory (CONCUR 2018), The 23rd International Conference on Engineering of Complex Computer Systems (ICECCS 2018), The 7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018), The 16th International Conference on Software Engineering and Formal Methods (SEFM 2018), The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS 2017), The 21st International Conference on Engineering of Complex Computer Systems (ICECCS 2016), The 14th International Conference on Software Engineering and Formal Methods (SEFM 2016).' 
+			type: 'text', content: '13th IEEE/ACM International Conference on Utility and Cloud Computing (<a href="https://www.cs.le.ac.uk/events/UCC2020/index.htm">UCC 2020</a>)' 
 		}
 	]
 };
-var revJourn = {
+var pc2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: 'Peer Reviewer (Journals): Journal of Grid Computing, IEEE Access, Sensors Journal (Internet of Things Section 2020), Electronics Journal (Artificial Intelligence Section 2020).' 
+			type: 'text', content: '12th International Conference on Evolving Internet (<a href="https://www.iaria.org/conferences2020/INTERNET20.html">INTERNET 2020</a>)' 
 		}
 	]
+};
+var pc3 = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: '16th International Conference on Formal Aspects of Component Software (<a href="http://facs2019.org/">FACS 2019</a>)' 
+		}
+	]
+};
+var pc4 = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: '16th International Conference on Software Engineering and Formal Methods (<a href="https://www.isf.cs.tu-bs.de/cms/events/sefm2018/">SEFM 2018</a>)' 
+		}
+	]
+};
+var pc5 = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: '14th International Conference on Software Engineering and Formal Methods (<a href="http://staf2016.conf.tuwien.ac.at/sefm/">SEFM 2016</a>)' 
+		}
+	]
+};
+
+var revJournIntro = 'Journal Reviewer';
+var revJourn1 = {
+	title: '',
+	body: [{ type: 'link', ref: 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386', content: 'IEEE Transactions on Services Computing' }]
+};
+var revJourn2 = {
+	title: '',
+	body: [{ type: 'link', ref: 'https://www.springer.com/journal/10723', content: 'Journal of Grid Computing' }]
+};
+var revJourn3 = {
+	title: '',
+	body: [{ type: 'link', ref: 'https://ieeeaccess.ieee.org/about-ieee-access/learn-more-about-ieee-access/', content: 'IEEE Access' }]
+};
+var revJourn4 = {
+	title: '',
+	body: [{ type: 'link', ref: 'https://www.mdpi.com/journal/sensors/sections/internet_of_things', content: 'Sensors Journal (Internet of Things Section)' }]
+};
+var revJourn5 = {
+	title: '',
+	body: [{ type: 'link', ref: 'https://www.mdpi.com/journal/electronics/sectioneditors/Artificial_Intell', content: 'Electronics Journal (Artificial Intelligence Section)' }]
 };
 
 var reviews = {
 	title: 'Professional Services',
 	//icon: 'img/review-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [revJourn, revConf] }
+	  { type: 'list', listType: 'ul', content: [pcIntro, pc1, pc2, pc3, pc4, pc5, revJournIntro, revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] }
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
