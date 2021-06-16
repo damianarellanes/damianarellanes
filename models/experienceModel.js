@@ -64,7 +64,7 @@ var professionalExperience = {
 
 
 /**************************** TEACHING EXPERIENCE ****************************/
-var teachingLancaster = 'Currently, I am delivering the following modules in the <a href="http://www.lucbjtu.ac.uk/en/">School of Computing and Communications at Lancaster BJTU</a>:';
+var teachingLancaster = 'Currently, I am an Associate Fellow of Higher Edication Academy (AFHEA). I am delivering the following modules in the <a href="http://www.lucbjtu.ac.uk/en/">School of Computing and Communications at Lancaster University</a>:';
 var teachingManchester = 
 'Previously, I was a teaching assistant in the <a href="http://www.cs.manchester.ac.uk/">Department of Computer Science at The University of Manchester</a>, where I assisted the following courses:';
 //var teachingDesc = 
