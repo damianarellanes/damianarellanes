@@ -271,9 +271,9 @@ var reviews = {
 	title: 'Professional Services',
 	//icon: 'img/review-icon.png',
         body: [
-                { type: 'bold', content: revJournIntro },
+                { type: 'text', content: revJournIntro },
 		{ type: 'list', content: [revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] }
-		{ type: 'bold', content: pcIntro },
+		{ type: 'text', content: pcIntro },
     	        { type: 'list', content: [pc1, pc2, pc3, pc4, pc5] }	        
 	]
 };
