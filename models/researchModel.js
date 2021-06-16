@@ -203,7 +203,7 @@ var theses = {
 /****************************** END: THESES ******************************/
 
 /**************************** REVIEW COMMITTEE ****************************/
-var pcIntro = 'Programme Committee Member';
+var pcIntro = '<b>Programme Committee Member</b>';
 var pc1 = {
 	title: '',
 	body: [
@@ -245,7 +245,7 @@ var pc5 = {
 	]
 };
 
-var revJournIntro = 'Journal Reviewer';
+var revJournIntro = '<b>Journal Reviewer</b>';
 var revJourn1 = {
 	title: '',
 	body: [{ type: 'link', ref: 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386', content: 'IEEE Transactions on Services Computing' }]
@@ -272,7 +272,7 @@ var reviews = {
 	//icon: 'img/review-icon.png',
         body: [
                 { type: 'text', content: revJournIntro },
-		{ type: 'list', content: [revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] }
+        	{ type: 'list', content: [revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] },
 		{ type: 'text', content: pcIntro },
     	        { type: 'list', content: [pc1, pc2, pc3, pc4, pc5] }	        
 	]
