@@ -270,8 +270,11 @@ var revJourn5 = {
 var reviews = {
 	title: 'Professional Services',
 	//icon: 'img/review-icon.png',
-	body: [
-	  { type: 'list', listType: 'ul', content: [pcIntro, pc1, pc2, pc3, pc4, pc5, revJournIntro, revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] }
+        body: [
+		{ type: 'text', content: pcIntro },
+    	        { type: 'list', content: [pc1, pc2, pc3, pc4, pc5] },
+	        { type: 'text', content: revJournIntro },
+		{ type: 'list', content: [revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] }
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
