@@ -142,7 +142,7 @@ var pub11 = {
 };
 
 var publications = {
-	title: 'Peer Reviewed Publications',
+	title: 'Peer-Reviewed Publications',
 	//icon: 'img/publications-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
