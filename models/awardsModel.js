@@ -26,7 +26,7 @@ var ha7 = {
 	]
 };
 var ha8 = {
-	title: 'Second Prize for Outstanding Doctoral Paper in Computer Science (2019)',
+	title: 'Outstanding Doctoral Paper in Computer Science (2019)',
         body: [
                 { type: 'text', content: '<a href="http://www.manchester.ac.uk/">The University of Manchester</a>' }
 	]
