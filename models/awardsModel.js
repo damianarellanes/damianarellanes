@@ -37,6 +37,12 @@ var ha9 = {
                 { type: 'text', content: '<a href="https://www.alliancembs.manchester.ac.uk/study/masood-enterprise-centre/">Masood Enterprise Centre, Alliance MBS</a>' }
 	]
 };
+var ha10 = {
+	title: 'Honourable Mention for the Most Outstanding Mexican Student in STEM in the UK (2021)',
+        body: [
+                { type: 'text', content: '<a href="https://mexsoc.org.uk/2021/07/01/winners-carlos-fuentes-prize-2019-2021/#site-footer">Embassy of Mexico in London and the Society of Mexican Students in the United Kingdom</a>' }
+	]
+};
 
 /**************************** END: HONORS AND AWARDS ****************************/
 
@@ -90,6 +96,6 @@ var awards = {
 	title: 'Awards',
 	//icon: 'img/award-icon.png',
 	body: [
-	  { type: 'list', content: [ha9, ha8, ha7, ha6, ha1, sch1, sch2, sch5, sch3, sch4] }
+	  { type: 'list', content: [ha10, ha9, ha8, ha7, ha6, ha1, sch1, sch2, sch5, sch3, sch4] }
 	]
 };
