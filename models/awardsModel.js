@@ -96,6 +96,6 @@ var awards = {
 	title: 'Awards',
 	//icon: 'img/award-icon.png',
 	body: [
-	  { type: 'list', content: [ha10, ha9, ha8, ha7, ha6, ha1, sch1, sch2, sch5, sch3, sch4] }
+	  { type: 'list', content: [ha1, ha9, ha8, ha7, ha6, ha1, sch1, sch2, sch5, sch3, sch4] }
 	]
 };
