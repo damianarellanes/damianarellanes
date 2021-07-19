@@ -136,7 +136,7 @@ var pub11 = {
 	title: '',
 	body: [
 		{ 
-			type: 'text', content: '<b>Damian Arellanes</b>. <a target="_blank" href="https://arxiv.org/pdf/2009.12844v2.pdf">Self-Organizing Software Models for the Internet of Things: Complex Software Structures that Emerge without a Central Controller</a>. To appear in IEEE Systems, Man, and Cybernetics Magazine, 7(3), 2021.' 
+			type: 'text', content: '<b>Damian Arellanes</b>. <a target="_blank" href="https://arxiv.org/pdf/2009.12844v2.pdf">Self-Organizing Software Models for the Internet of Things: Complex Software Structures that Emerge without a Central Controller</a>. IEEE Systems, Man, and Cybernetics Magazine, 7(3), 2021.' 
 		}
 	]
 };
