@@ -40,7 +40,7 @@ var ha9 = {
 var ha10 = {
 	title: 'Honourable Mention for the Most Outstanding Mexican Student in STEM in the UK (2021)',
         body: [
-                { type: 'text', content: '<a href="https://mexsoc.org.uk/2021/07/01/winners-carlos-fuentes-prize-2019-2021/#site-footer">Embassy of Mexico in London and the Society of Mexican Students in the United Kingdom</a>' }
+                { type: 'text', content: '<a href="https://mexsoc.org.uk/2021/07/01/winners-carlos-fuentes-prize-2019-2021/#site-footer">Embassy of Mexico in London, The University of Nottingham and the Society of Mexican Students in the United Kingdom</a>' }
 	]
 };
 
