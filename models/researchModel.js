@@ -142,13 +142,32 @@ var pub11 = {
 };
 
 var publications = {
-	title: 'Peer-Reviewed Publications',
+	title: 'Refereed Publications in Journals and Conference Proceedings',
 	//icon: 'img/publications-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
+
+/**************************** OTHER PUBLICATIONS ****************************/
+var opub1 = {
+	title: '',
+	body: [
+		{ 
+			type: 'text', content: '<b>Damian Arellanes</b>. <a target="_blank" href="https://arxiv.org/abs/2108.05402">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>. ArXiv e-prints, arXiv:2108.05402, 2021.'
+		}
+	]
+};
+
+
+var otherPublications = {
+	title: 'Other Publications',
+	body: [
+	  { type: 'list', listType: 'ul', content: [opub1] }
+	]
+};
+/**************************** END: OTHER PUBLICATIONS ****************************/
 
 /********************************* POSTERS *********************************/
 var poster1 = {
