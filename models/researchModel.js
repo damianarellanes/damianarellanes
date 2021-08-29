@@ -1,5 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'My core research focuses on the area of <i>software models for distributed systems</i> and, more specifically, on autonomic models of computation for Cyber-Physical Systems (CPS).<br/><br/>To date, I have discovered the notion of <b>workflow spaces</b> which are computational structures that underpin the foundations of <i>algebraic composition</i>. This notion led me to the development of a <b>single-sorted algebra of control flow spaces</b> that allows the compositional construction of (variable) service-oriented systems.<br/><br/>Currently, I investigate the fundamental semantics of autonomicity in algebraic software models for tackling the scale and the complexity of future CPS environments (like the Internet of Things). I have a strong interest in the theory of self-* properties (e.g., self-composition, self-optimisation, self-reconfiguration, etc.) for realising autonomicity. Like any other branch of theoretical Computer Science, this theory is grounded in philosophy and it is ultimately relevant to applied computing in diverse CPS domains (e.g., Smart Cities, Smart Homes and Connected Health).';
+var researchInterestsDesc = 'My core research is focused on the theoretical foundations of <b>self-organising software models</b> which allow the emergence of complex programs from simple rules. The goal of this research is to tackle the scale and the complexity of software construction by exploring the notion and the limits of emergent computation for self-programming. Like any other branch of theoretical Computer Science, self-organising software models are grounded in analytic philosophy and they are ultimately relevant to applied computing in diverse domains (e.g., Cyber-Physical Systems).<br/><br/>To date, I have discovered the notion of <b>workflow spaces</b> which are computational structures that underpin the foundations of <i>algebraic composition</i>. This notion led me to the development of a <b>single-sorted algebra of control flow spaces</b> that allows the compositional construction of (variable) service-oriented systems. With the foundations of self-organising software models, I have <a target="_blank" href="https://arxiv.org/abs/2108.05402">shown</a> that complex spaces of programs/compositions can emerge from simple rules in the form of abstract categories.';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -63,81 +63,78 @@ var talks = {
 var pub1 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b>, Sonia Mendoza and Dominique Decouchant. <a target="_blank" href="papers/2014-ResourceAggregationSupport.pdf">Support for resource aggregation in collaborative P2P systems</a>. In International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE), pages 1-6. IEEE, 2014.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b>, Sonia Mendoza and Dominique Decouchant. <span style="color:#000a56">Support for resource aggregation in collaborative P2P systems</span>. In International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE), pages 1-6. IEEE, 2014.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/6978323"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/iceee/ArellanesMD14.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2014-ResourceAggregationSupport.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub3 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2017-ExogenousConnectors.pdf">Exogenous Connectors for Hierarchical Service Composition</a>. In International Conference on Service Oriented Computing and Applications (SOCA), pages 125-132. IEEE, 2017.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">Exogenous Connectors for Hierarchical Service Composition</span>. In International Conference on Service Oriented Computing and Applications (SOCA), pages 125-132. IEEE, 2017.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/8241534"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/soca/ArellanesL17.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2017-ExogenousConnectors.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub4 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2017-Platform.pdf">D-XMAN: A Platform For Total Compositionality in Service-Oriented Architectures</a>. In International Symposium on Cloud and Service Computing (SC2), pages 283-286. IEEE, 2017.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">D-XMAN: A Platform For Total Compositionality in Service-Oriented Architectures</span>. In International Symposium on Cloud and Service Computing (SC2), pages 283-286. IEEE, 2017.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/8315395"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/sc2/ArellanesL17.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2017-Platform.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub5 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: 'Elie El Hayek, Imen Grida Ben Yahia, <b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2018-Analysis5G.pdf">Analysis of Component-Based Approaches Toward Componentized 5G</a>. In International Conference on Innovation in Clouds, Internet and Networks (ICIN), pages 1-5. IEEE, 2018.' 
-		}
+		{type: 'text', content: 'Elie El Hayek, Imen Grida Ben Yahia, <b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">Analysis of Component-Based Approaches Toward Componentized 5G</span>. In International Conference on Innovation in Clouds, Internet and Networks (ICIN), pages 1-5. IEEE, 2018.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/8401611"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/icin/HayekYAL18.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2018-Analysis5G.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub6 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2018-AlgebraicUserCentric.pdf">Algebraic Service Composition for User-Centric IoT Applications</a>. In International Conference on Internet of Things (ICIOT), pages 56-69. Springer, 2018. <font color="red">Best Paper Award</font>.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">Algebraic Service Composition for User-Centric IoT Applications</span>. In International Conference on Internet of Things (ICIOT), pages 56-69. Springer, 2018. <font color="red">Best Paper Award</font>.'},
+	        {type: 'text', content: '<a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-319-94370-1_5"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/iciot2/ArellanesL18.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2018-AlgebraicUserCentric.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub7 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2018-AnalysisInteractions.pdf">Analysis and Classification of Service Interactions for the Scalability of the Internet of Things</a>. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B</i>. <i>Acceptance rate: 18.6%</i>. Selected as a <font color="red">Best Paper</font> in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC). Prize for the <font color="red">Carole Goble medal</font> for outstanding paper in Computer Science.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">Analysis and Classification of Service Interactions for the Scalability of the Internet of Things</span>. In International Congress on Internet of Things (ICIOT), pages 80-87. IEEE, 2018. <i>Core Ranking B</i>. <i>Acceptance rate: 18.6%</i>. Selected as a <font color="red">Best Paper</font> in the 2018 IEEE World Congress of Services for submission in the International Journal of Cloud Computing (IJCC). Prize for the <font color="red">Carole Goble medal</font> for outstanding paper in Computer Science.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/8473443"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/iciot/ArellanesL18.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2018-AnalysisInteractions.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub8 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2019-DecentralizedDataFlows.pdf">Decentralized Data Flows in Algebraic Service Compositions for the Scalability of IoT Systems</a>. In World Forum on Internet of Things (WF-IoT), pages 668-673. IEEE, 2019.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">Decentralized Data Flows in Algebraic Service Compositions for the Scalability of IoT Systems</span>. In World Forum on Internet of Things (WF-IoT), pages 668-673. IEEE, 2019.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/8767238"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/wf-iot/ArellanesL19.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2019-DecentralizedDataFlows.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub9 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2019-WorkflowVariability.pdf">Workflow Variability for IoT Systems</a>. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B</i>. <i>Acceptance rate: 30%<i/>.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <span style="color:#000a56">Workflow Variability for IoT Systems</span>. In International Conference on Autonomic Computing (ICAC), pages 24-30. IEEE, 2019. <i>Core Ranking B</i>. <i>Acceptance rate: 30%<i/>.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/8831195"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/conf/icac/ArellanesL19.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="papers/2019-WorkflowVariability.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub10 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2020-EvaluationIoT.pdf">Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems</a>. Future Generation Computer Systems Journal, 108:827-848, 2020.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b> and Kung-Kiu Lau. <a target="_blank" href="papers/2020-EvaluationIoT.pdf"><span style="color:#000a56">Evaluating IoT Service Composition Mechanisms for the Scalability of IoT Systems</span></a>. Future Generation Computer Systems Journal, 108:827-848, 2020.'},
+	        {type: 'text', content: '<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X19320291"><u>original</u></a>&nbsp;&nbsp;<a href="https://dblp.org/rec/journals/fgcs/ArellanesL20.bib?param=1"><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="https://damianarellanes.com/papers/2020-EvaluationIoT.pdf"><u>preprint</u></a>'}
 	]
 };
 var pub11 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b>. <a target="_blank" href="https://arxiv.org/pdf/2009.12844v2.pdf">Self-Organizing Software Models for the Internet of Things: Complex Software Structures that Emerge without a Central Controller</a>. IEEE Systems, Man, and Cybernetics Magazine, 7(3), 2021.' 
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Self-Organizing Software Models for the Internet of Things: Complex Software Structures that Emerge without a Central Controller</span>. IEEE Systems, Man, and Cybernetics Magazine, 7(3), 2021.'},
+	        {type: 'text', content: '<a target="_blank" href="https://ieeexplore.ieee.org/document/9487638"><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href="https://arxiv.org/abs/2009.12844"><u>preprint</u></a>'}
+	]
+};
+var pub12 = {
+	title: '',
+	body: [
+		{type: 'text', content: 'Filippos Ventirozos, Risa Theresa Batista-Navarro, Sarah Clinch and <b>Damian Arellanes</b>. <span style="color:#000a56">A Comparison Between Behaviour Trees and the DX-MAN Model</span>. To appear in the proceedings of the International Conference on Model Driven Engineering, Languages and Systems (MODELS).'}//,
+	        //{type: 'text', content: '<a target="_blank" href=""><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href=""><u>preprint</u></a>'}
 	]
 };
 
@@ -145,7 +142,7 @@ var publications = {
 	title: 'Refereed Publications in Journals and Conference Proceedings',
 	//icon: 'img/publications-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  { type: 'list', listType: 'ul', content: [pub11, pub12, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
@@ -154,12 +151,10 @@ var publications = {
 var opub1 = {
 	title: '',
 	body: [
-		{ 
-			type: 'text', content: '<b>Damian Arellanes</b>. <a target="_blank" href="https://arxiv.org/abs/2108.05402">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>. ArXiv e-prints, arXiv:2108.05402, 2021.'
-		}
+		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</span>. ArXiv e-prints, arXiv:2108.05402, 2021.'},
+	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/abs/2108.05402"><u>original</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
 	]
 };
-
 
 var otherPublications = {
 	title: 'Other Publications',

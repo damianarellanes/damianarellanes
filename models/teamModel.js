@@ -1,3 +1,19 @@
+/**************************** PhD ****************************/
+var phd1 = {
+	title: 'Giulio Filippi (2021-Present)',
+        body: [
+                { type: 'text', content: 'Lancaster University' },
+                { type: 'text', content: 'Thesis: <i>Fractal Automaton<\i>' }
+	]
+};
+var teamPhD = {
+	title: 'PhD Students',
+	body: [
+	  { type: 'list', content: [phd1] }
+	]
+};
+/**************************** END: PhD ****************************/
+
 /**************************** MSc ****************************/
 var msc1 = {
 	title: 'Wei Shi (2018)',
