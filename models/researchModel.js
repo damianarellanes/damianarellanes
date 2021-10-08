@@ -133,7 +133,7 @@ var pub11 = {
 var pub12 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Filippos Ventirozos, Riza Theresa Batista-Navarro, Sarah Clinch and <b>Damian Arellanes</b>. <span style="color:#000a56">A Comparison Between Behaviour Trees and the DX-MAN Model</span>. To appear in the proceedings of the International Conference on Model Driven Engineering, Languages and Systems Companion (MODELS).'}//,
+		{type: 'text', content: 'Filippos Ventirozos, Riza Theresa Batista-Navarro, Sarah Clinch and <b>Damian Arellanes</b>. <span style="color:#000a56">A Comparison Between Behaviour Trees and the DX-MAN Model</span>. To appear in the Proceedings of the International Conference on Model Driven Engineering, Languages and Systems Companion (MODELS). ACM/IEEE, 2021.'}//,
 	        //{type: 'text', content: '<a target="_blank" href=""><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href=""><u>preprint</u></a>'}
 	]
 };
@@ -152,12 +152,12 @@ var opub1 = {
 	title: '',
 	body: [
 		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</span>. ArXiv e-prints, arXiv:2108.05402, 2021.'},
-	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/abs/2108.05402"><u>original</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
+	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/abs/2108.05402"><u>preprint</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
 	]
 };
 
 var otherPublications = {
-	title: 'Other Publications',
+	title: 'Forthcoming Publications',
 	body: [
 	  { type: 'list', listType: 'ul', content: [opub1] }
 	]
