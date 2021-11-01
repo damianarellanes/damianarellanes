@@ -3,7 +3,8 @@ var phd1 = {
 	title: 'Giulio Filippi (2021-Present)',
         body: [
                 { type: 'text', content: 'Lancaster University' },
-                { type: 'text', content: 'Thesis: <i>Fractal Automaton<\i>' }
+          { type: 'text', content: 'Thesis: <i>Fractal Automaton<\i>' },
+                { type: 'text', content: 'Previously: University of Cambridge (BA in Pure Mathematics) and University College London (MSc in Machine Learning)' }
 	]
 };
 var teamPhD = {
@@ -92,11 +93,18 @@ var bsc3 = {
                 { type: 'text', content: 'Thesis: <i>Stream Processing as a Service with Automatic KPI Anomaly Detection and Root Cause Localisation<\i>' }
 	]
 };
+var bsc4 = {
+	title: 'Boning Li (Expected 2022)',
+  body: [
+                { type: 'text', content: 'Lancaster University' },
+                { type: 'text', content: 'Thesis: <i>Implementing a Universal Turing Machine in Cellular Automata<\i>' }
+	]
+};
 /**************************** END: BSc ****************************/
 
 var teamBsc = {
 	title: 'BSc Students',
 	body: [
-	  { type: 'list', content: [bsc1,bsc2,bsc3] }
+	  { type: 'list', content: [bsc4,bsc1] }
 	]
 };
