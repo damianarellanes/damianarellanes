@@ -9,7 +9,7 @@ myWebsite.directive('listGenerator', function ($rootScope) {
     	listType: '='
     },
     template: 
-  	'<ul>' +
+  	'<ol>' +
 	 	'<li ng-repeat="l in listContent">' +
 	 		'<div class="title">{{ l.title }}</div>' + 
 	 		'<div ng-repeat="b in l.body">' +
@@ -19,6 +19,6 @@ myWebsite.directive('listGenerator', function ($rootScope) {
 	 			'<div ng-if="b.type == \'bold\' "><b>{{ b.content }}</b></div>' +
 	 		'</div>' +
 	 	'</li>' +
- 	'</ul>'
+ 	'</ol>'
  };
 });

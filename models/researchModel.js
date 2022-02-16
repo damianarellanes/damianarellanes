@@ -137,12 +137,19 @@ var pub12 = {
 	        //{type: 'text', content: '<a target="_blank" href=""><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href=""><u>preprint</u></a>'}
 	]
 };
+var pub13 = {
+	title: '',
+	body: [
+		{type: 'text', content: '<b>Damian Arellanes</b>, Kung-Kiu Lau and Rizos Sakellariou. <a target="_blank" href=""><span style="color:#000a56">Decentralised Data Flows for the Functional Scalability of Service-Oriented IoT Systems</span></a>. Computer Journal, 2022.'},
+	        {type: 'text', content: '<a target="_blank" href=""><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href=""><u>preprint</u></a>'}
+	]
+};
 
 var publications = {
 	title: 'Refereed Publications in Journals and Conference Proceedings',
 	//icon: 'img/publications-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [pub11, pub12, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  { type: 'list', listType: 'ul', content: [pub13, pub11, pub12, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
