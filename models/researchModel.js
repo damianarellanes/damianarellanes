@@ -1,6 +1,6 @@
 /**************************** RESEARCH INTERESTS ****************************/
 //I am interested in the following questions:<br/><br/><img src="img/questions.png" width="80%" height="80%" />
-var researchInterestsDesc = 'My search is in the broad area of <b>Theoretical Computer Science</b> and it is primarily focused at discovering the foundations of <b>Self-Composition</b> by exploring the intersection of composition spaces, algebraic semantics, emergence and self-reduction.<br/><br/><img src="img/context.png" width="100%" height="100%" /><br/><br/><b>Composition spaces</b> are abstract structures that encapsulate a potentially infinite number of composition constructs (which can either be computable or non-computable). In this line, I am particularly interested in defining algebraic semantics for such spaces as well as understanding their emergence and self-reduction limits.<br/><br/>During my search journey, I have discovered the notion of workflow spaces which allow the algebraic construction of variable computations. With the foundations of self-organisation, I have <a target="_blank" href="https://arxiv.org/abs/2108.05402">shown</a> that complex composition spaces can emerge from simple rules in the form of abstract categories. More recently, I started to develop a <a target="_blank" href="https://arxiv.org/">single-sorted algebra</a> of computon spaces which are morphisms that generalise the notion of composition.';
+var researchInterestsDesc = 'My search is in the broad area of <b>Theoretical Computer Science</b> and it is primarily focused at discovering the foundations of <b>Self-Composition</b> by exploring the intersection of composition spaces, algebraic semantics, emergence and self-reduction.<br/><br/><img src="img/context.png" width="100%" height="100%" /><br/><br/><b>Composition spaces</b> are abstract structures that encapsulate a potentially infinite number of composition constructs (which can either be computable or non-computable). In this line, I am particularly interested in defining algebraic semantics for such spaces as well as understanding their emergence and self-reduction limits.<br/><br/>During my search journey, I have discovered the notion of workflow spaces which allow the algebraic construction of variable computations. With the foundations of self-organisation, I have <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">shown</a> that complex composition spaces can emerge from simple rules in the form of abstract categories. More recently, I started to develop a <a target="_blank" href="papers/2022-Towards-Algebra-Computon-Spaces.pdf">single-sorted algebra</a> of computon spaces which are morphisms that generalise the notion of composition.';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -147,7 +147,7 @@ var opub1 = {
 var opub2 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Towards an Algebra of Computon Spaces</span>. ArXiv e-prints, arXiv:2108.05402, 2022.'},
+		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Towards an Algebra of Computon Spaces</span>. ArXiv e-prints, arXiv:4334453, 2022.'},
 	        {type: 'text', content: '<a target="_blank" href="papers/2022-Towards-Algebra-Computon-Spaces.pdf"><u>preprint</u></a>&nbsp;&nbsp;<a href="#"><u>bib</u></a>'}
 	]
 };
