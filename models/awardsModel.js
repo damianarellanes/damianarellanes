@@ -82,14 +82,6 @@ var sch5 = {
 		//{ type: 'text', content: 'Additional financial support for studying a PhD abroad.' }
 	]
 };
-
-var scholarships = {
-	title: 'Grants (~£106,818)',
-	icon: 'img/scholarships-icon.png',
-	body: [
-		{ type: 'list', content: [sch1, sch2, sch3, sch4] }
-	]
-};
 /**************************** END: SCHOLARSHIPS ****************************/
 
 var awards = {

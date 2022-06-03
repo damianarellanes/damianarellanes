@@ -6,7 +6,8 @@ var personalIntro = {
 		{
 		type: 'text',
 		content:
-		'<i>"The true nature of things can be better studied from the eyes of a theoretician, not from a mechano-experimental viewpoint. Following the Hellenic ideology, "intuition over observation" is the key to formulate universal principles directly extracted from the world of ideas. As mathematics is just the language to describe what it is and what we observe, semantics has a permanent value in the development of abstract thinking." D. Arellanes (2020)</i></br></br><i>"Although a philosophical fact is often considered a figment of imagination, it could actually be a node in a tree of infinite possibilities. The path to reach that node is full of probabilistic conditions that make it difficult to converge on that point. Science provides directions to find accurate solutions that allow a global visualisation of the critical path of possibilities to reach that point. Howbeit, the synergy between science and philosophy may potentially provide directions to find solutions that best describe the real essence of Nature\'s behaviour. Thus, believing in scientific truth does not deny that philosophy is a just possibility among an infinite set of possibilities (perhaps beyond transfinite cardinalities)." D. Arellanes (2012)</i></br></br><i>"The basis of existence and evolution of human beings lies in science; however, the fundamental reason for such an existence and evolution lies in the arts. Human beings need these factors to continue navigating through those infinite waters that get lost in its own immensity, while we try to find the right path that takes us to what we have craved, to that Truth that we do have craved." D. Arellanes (2013) </i>'
+		'<i>"The true nature of things can be better studied from the eyes of a theoretician, not from a mechano-experimental viewpoint. Following the Hellenic ideology, "intuition over observation" is the key to formulate universal principles directly extracted from the world of ideas. As mathematics is just the language to describe what it is and what we observe, semantics has a permanent value in the development of abstract thinking." D. Arellanes (2020)</i>'  
+		/*'<i>"The true nature of things can be better studied from the eyes of a theoretician, not from a mechano-experimental viewpoint. Following the Hellenic ideology, "intuition over observation" is the key to formulate universal principles directly extracted from the world of ideas. As mathematics is just the language to describe what it is and what we observe, semantics has a permanent value in the development of abstract thinking." D. Arellanes (2020)</i></br></br><i>"Although a philosophical fact is often considered a figment of imagination, it could actually be a node in a tree of infinite possibilities. The path to reach that node is full of probabilistic conditions that make it difficult to converge on that point. Science provides directions to find accurate solutions that allow a global visualisation of the critical path of possibilities to reach that point. Howbeit, the synergy between science and philosophy may potentially provide directions to find solutions that best describe the real essence of Nature\'s behaviour. Thus, believing in scientific truth does not deny that philosophy is a just possibility among an infinite set of possibilities (perhaps beyond transfinite cardinalities)." D. Arellanes (2012)</i></br></br><i>"The basis of existence and evolution of human beings lies in science; however, the fundamental reason for such an existence and evolution lies in the arts. Human beings need these factors to continue navigating through those infinite waters that get lost in its own immensity, while we try to find the right path that takes us to what we have craved, to that Truth that we do have craved." D. Arellanes (2013) </i>'*/
 		}
 	]
 };
@@ -103,60 +104,3 @@ var internationalSocieties = {
 	]
 };
 /**************************** END: INTERNATIONAL SOCIETIES ****************************/
-
-
-/**************************** HOBBIES ****************************/
-var hobbiesStatement = 
-	'My hobbies include going out to the cinema, listening to music, hanging around with my friends, playing football (I used to train in a professional fashion when I was a child), writing (e.g., nowadays I am writing a science fiction novel), playing piano, composing music, reading books (my favourite writer is H. P. Lovecraft, I love his work because he combines science with horror), and programming. In a pragmatic perspective, I believe that the experience gained in real life is the best way to have a better performance in all spheres of life. Who knows?... the best ideas might emerge in social meetings. Friends are very important to me and I like to preserve them. I do really love enjoying each moment in my life because we cannot turn the time back. At least that is what we believe so far...';
-var hobbiesQuote = '<i>"Carpe Diem"</i> :)';
-var visitedPlaces =  '<img src="img/visited-countries.png" />';
-	
-var hobbies = {
-	title: 'Hobbies',
-	//icon: 'img/hobbies-icon.png',
-	body: [
-		{ type: 'text', content: hobbiesStatement },
-                { type: 'text', content: hobbiesQuote },
-        	{ type: 'text', content: visitedPlaces }
-	]
-};
-/**************************** END: HOBBIES ****************************/
-
-/**************************** EDUCATION ****************************/
-var ed1 = {
-	title: 'PhD in Computer Science (2015-2019)',
-	body: [
-
-	        { type: 'text', content: 'Thesis title:<i>"An Algebraic Service Composition Model for the Construction of Large-Scale IoT Systems"</i>' },
-	        { type: 'text', content: '<font color="red">Awarded as a Journal Format</font>' },
-		{ type: 'link', ref: 'http://www.cs.manchester.ac.uk/', content: 'Department of Computer Science' },
-		{ type: 'text', content: '<a href="http://www.manchester.ac.uk/">The University of Manchester</a>, United Kingdom' }
-	]
-};
-var ed2 = {
-	title: 'MSc in Computer Science (2012-2014)',
-	body: [
-		{ type: 'text', content: 'Thesis title:<i>"RASupport: flexible, bio-inspired, auto-configurable, and multi-agent support for resource aggregation in collaborative P2P systems"</i>' },
-	        { type: 'text', content: '<font color="red">Best MSc Thesis in Artificial Intelligence</font>' },
-                { type: 'text', content: '<font color="red">First Class Honours</font>' },
-		{ type: 'link', ref: 'http://www.cs.cinvestav.mx/en', content: 'Department of Computer Science' },
-		{ type: 'text', content: '<a href="http://www.cinvestav.mx/">Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN)</a>, Mexico' }
-	]
-};
-var ed3 = {
-	title: 'BEng in Computer Systems Engineering (2008-2012)',
-	body: [
-	        { type: 'text', content: 'Thesis title:<i>"P2P network for detecting and acquiring illegal files"</i>' },
-		{ type: 'link', ref: 'http://www.isc.escom.ipn.mx/', content: 'School of Computing' },
-		{ type: 'text', content: '<a href="http://www.ipn.mx/english/Paginas/Inicio.aspx">National Polytechnic Institute (IPN)</a>, Mexico' }
-	]
-}; 
-
-var education = {
-	title: 'Education',
-	//icon: 'img/education-icon.png',
-	body: [
-		{ type: 'list', content: [ed1, ed2, ed3] }
-	]
-};
-/**************************** END: EDUCATION ****************************/

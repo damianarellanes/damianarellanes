@@ -8,21 +8,11 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
         templateUrl: 'views/AboutMe.html',
         controller: 'aboutMeCtrl'
     },
-    research = {
+    /*research = {
         url: '/research',
         templateUrl: 'views/Research.html',
         controller: 'researchCtrl'
-    },
-    experience = {
-        url: '/experience',
-        templateUrl: 'views/Experience.html',
-        controller: 'experienceCtrl'
-    },
-    software = {
-        url: '/software',
-        templateUrl: 'views/Software.html',
-        controller: 'softwareCtrl'
-    },
+    },*/
     personal = {
         url: '/personal',
         templateUrl: 'views/Personal.html',
@@ -40,10 +30,8 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
     };
 	
     $stateProvider    	    	
-       	.state('aboutMe', aboutMe)
-       	.state('research', research)
-       	.state('experience', experience)
-       	.state('software', software)
+        .state('aboutMe', aboutMe)
+        //.state('research', research)  
         .state('personal', personal)
         .state('awards', awards)
         .state('team', team);

@@ -1,44 +1,15 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'My core research is focused on the theoretical foundations of <b>self-organising software models</b> which allow the emergence of complex programs from simple rules. The goal of this research is to tackle the scale and the complexity of software construction by exploring the notion and the limits of emergent computation for self-programming. Like any other branch of <b>Theoretical Computer Science</b>, self-organising software models are grounded in analytic philosophy and they are ultimately relevant to applied computing in diverse domains (e.g., Cyber-Physical Systems).<br/><br/>To date, I have discovered the notion of <b>workflow spaces</b> which are computational structures that underpin the foundations of <i>algebraic composition</i>. This notion led me to the development of a <b>single-sorted algebra of control flow spaces</b> that allows the compositional construction of (variable) service-oriented systems. With the foundations of self-organising software models, I have <a target="_blank" href="https://arxiv.org/abs/2108.05402">shown</a> that complex spaces of programs/compositions can emerge from simple rules in the form of abstract categories.';
+//I am interested in the following questions:<br/><br/><img src="img/questions.png" width="80%" height="80%" />
+var researchInterestsDesc = 'My search is in the broad area of <b>Theoretical Computer Science</b> and it is primarily focused at discovering the foundations of <b>Self-Composition</b> by exploring the intersection of composition spaces, algebraic semantics, emergence and self-reduction.<br/><br/><img src="img/context.png" width="100%" height="100%" /><br/><br/><b>Composition spaces</b> are abstract structures that encapsulate a potentially infinite number of composition constructs (which can either be computable or non-computable). In this line, I am particularly interested in defining algebraic semantics for such spaces as well as understanding their emergence and self-reduction limits.<br/><br/>During my search journey, I have discovered the notion of workflow spaces which allow the algebraic construction of variable computations. With the foundations of self-organisation, I have <a target="_blank" href="https://arxiv.org/abs/2108.05402">shown</a> that complex composition spaces can emerge from simple rules in the form of abstract categories. More recently, I started to develop a <a target="_blank" href="https://arxiv.org/">single-sorted algebra</a> of computon spaces which are morphisms that generalise the notion of composition.';
 
 var researchInterests = {
 	title: 'Research Interests',
 	//icon: 'img/research-icon.png',
 	body: [
-		{ type: 'text', content: researchInterestsDesc }
+	  { type: 'text', content: researchInterestsDesc }
 	]
 };
 /**************************** END: RESEARCH INTERESTS ****************************/
-
-/**************************** RESEARCH PROJECTS ****************************/
-var researchProjectsDesc = '';
-var rproject1_0 = {
-	size: '', 
-	classes: '',
-	columns: [
-		{ size: 'sm-12', content: '<br/><br/><p><b><a href="">DX-MAN: An Algebraic Model for the Compositional Construction of Autonomous IoT Systems</a></b></p>' }
-	]
-};
-var rproject1_1 = {
-	size: '', 
-	classes: '',
-	columns: [
-		{ size: 'sm-6', content: '<img src="img/projects/D-XMAN.png" width="100%" height="100%" />' },		
-		{ size: 'sm-6', classes: '', content: 			
-			'<p>DX-MAN is an algebraic model for composing IoT services algebraically and incrementally using exogenous composition operators. The semantics of the model allows explicit control flow, distributed workflows, location transparency, decentralised data flows, separation of concerns (data, control and computation) and workflow variability.</p>' }
-	]
-};
-
-
-var researchProjects = {
-	title: 'Projects',
-	//icon: 'img/research-project-icon.png',
-	body: [
-		{ type: 'text', content: researchProjectsDesc },
-	    { type: 'multi-column', content: [rproject1_0, rproject1_1] }
-	]
-};
-/**************************** END: RESEARCH PROJECTS ****************************/
 
 /**************************** TALKS ****************************/
 var talk1 = {
@@ -133,23 +104,34 @@ var pub11 = {
 var pub12 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Filippos Ventirozos, Riza Theresa Batista-Navarro, Sarah Clinch and <b>Damian Arellanes</b>. <span style="color:#000a56">A Comparison Between Behaviour Trees and the DX-MAN Model</span>. To appear in the Proceedings of the International Conference on Model Driven Engineering, Languages and Systems Companion (MODELS). ACM/IEEE, 2021.'}//,
-	        //{type: 'text', content: '<a target="_blank" href=""><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href=""><u>preprint</u></a>'}
+		{type: 'text', content: 'Filippos Ventirozos, Riza Theresa Batista-Navarro, Sarah Clinch and <b>Damian Arellanes</b>. <span style="color:#000a56">A Comparison Between Behaviour Trees and the DX-MAN Model</span>. In International Conference on Model Driven Engineering, Languages and Systems Companion (MODELS), pages 341-350. ACM/IEEE, 2021.'}
 	]
 };
 var pub13 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>, Kung-Kiu Lau and Rizos Sakellariou. <a target="_blank" href=""><span style="color:#000a56">Decentralised Data Flows for the Functional Scalability of Service-Oriented IoT Systems</span></a>. Computer Journal, 2022.'},
+		{type: 'text', content: '<b>Damian Arellanes</b>, Kung-Kiu Lau and Rizos Sakellariou. <a target="_blank" href=""><span style="color:#000a56">Decentralized Data Flows for the Functional Scalability of Service-Oriented IoT Systems</span></a>. Computer Journal, 2022.'},
 	        {type: 'text', content: '<a target="_blank" href="https://doi.org/10.1093/comjnl/bxac023"><u>original</u></a>&nbsp;&nbsp;<a href=""><u>bib</u></a>&nbsp;&nbsp;<a target="_blank" href=""><u>preprint</u></a>'}
 	]
 };
 
-var publications = {
-	title: 'Refereed Publications in Journals and Conference Proceedings',
+var pubs = {
+	title: 'Refereed Articles in Journals and in Conference Proceedings',
 	//icon: 'img/publications-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [pub13, pub11, pub12, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  { type: 'list', listType: 'ul', content: [pub13, pub12, pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	]
+};
+var journalPubs = {
+	title: 'Refereed Articles in Journals',
+	body: [
+	  { type: 'list', listType: 'ul', content: [pub13, pub11, pub10] }
+	]
+};
+var conferencePubs = {
+	title: 'Refereed Articles in Conference Proceedings',
+	body: [
+	  { type: 'list', listType: 'ul', content: [pub12, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
@@ -162,11 +144,18 @@ var opub1 = {
 	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/abs/2108.05402"><u>preprint</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
 	]
 };
+var opub2 = {
+	title: '',
+	body: [
+		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Towards an Algebra of Computon Spaces</span>. ArXiv e-prints, arXiv:2108.05402, 2022.'},
+	        {type: 'text', content: '<a target="_blank" href="papers/2022-Towards-Algebra-Computon-Spaces.pdf"><u>preprint</u></a>&nbsp;&nbsp;<a href="#"><u>bib</u></a>'}
+	]
+};
 
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	  { type: 'list', listType: 'ul', content: [opub1] }
+	  { type: 'list', listType: 'ul', content: [opub2,opub1] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/
@@ -229,7 +218,7 @@ var pc1 = {
 	title: '',
 	body: [
 		{ 
-			type: 'link', ref: 'https://www.cs.le.ac.uk/events/UCC2020/index.htm', content: '13th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2020)' 
+			type: 'text', content: '13th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2020)' 
 		}
 	]
 };
@@ -237,7 +226,7 @@ var pc2 = {
 	title: '',
 	body: [
 		{ 
-			type: 'link', ref: 'https://www.iaria.org/conferences2020/INTERNET20.html', content: '12th International Conference on Evolving Internet (INTERNET 2020)' 
+			type: 'text', content: '12th International Conference on Evolving Internet (INTERNET 2020)' 
 		}
 	]
 };
@@ -245,7 +234,7 @@ var pc3 = {
 	title: '',
 	body: [
 		{ 
-			type: 'link', ref: 'http://facs2019.org/', content: '16th International Conference on Formal Aspects of Component Software (FACS 2019)' 
+			type: 'text', content: '16th International Conference on Formal Aspects of Component Software (FACS 2019)' 
 		}
 	]
 };
@@ -253,7 +242,7 @@ var pc4 = {
 	title: '',
 	body: [
 		{ 
-			type: 'link', ref: 'https://www.isf.cs.tu-bs.de/cms/events/sefm2018/', content: '16th International Conference on Software Engineering and Formal Methods (SEFM 2018)' 
+			type: 'text', content: '16th International Conference on Software Engineering and Formal Methods (SEFM 2018)' 
 		}
 	]
 };
@@ -261,7 +250,7 @@ var pc5 = {
 	title: '',
 	body: [
 		{ 
-		        type: 'link', ref: 'http://staf2016.conf.tuwien.ac.at/sefm/', content: '14th International Conference on Software Engineering and Formal Methods (SEFM 2016)' 
+		        type: 'text', content: '14th International Conference on Software Engineering and Formal Methods (SEFM 2016)' 
 		}
 	]
 };
@@ -269,23 +258,27 @@ var pc5 = {
 var revJournIntro = '<b>Journal Reviewer</b>';
 var revJourn1 = {
 	title: '',
-	body: [{ type: 'link', ref: 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386', content: 'IEEE Transactions on Services Computing' }]
+	body: [{ type: 'text', content: 'IEEE Transactions on Services Computing' }]
 };
 var revJourn2 = {
 	title: '',
-	body: [{ type: 'link', ref: 'https://www.springer.com/journal/10723', content: 'Journal of Grid Computing' }]
+	body: [{ type: 'text', content: 'Journal of Grid Computing' }]
 };
 var revJourn3 = {
 	title: '',
-	body: [{ type: 'link', ref: 'https://ieeeaccess.ieee.org/about-ieee-access/learn-more-about-ieee-access/', content: 'IEEE Access' }]
+	body: [{ type: 'text', content: 'IEEE Access' }]
 };
 var revJourn4 = {
 	title: '',
-	body: [{ type: 'link', ref: 'https://www.mdpi.com/journal/sensors/sections/internet_of_things', content: 'Sensors Journal (Internet of Things Section)' }]
+	body: [{ type: 'text', content: 'Sensors Journal (Internet of Things Section)' }]
 };
 var revJourn5 = {
 	title: '',
-	body: [{ type: 'link', ref: 'https://www.mdpi.com/journal/electronics/sectioneditors/Artificial_Intell', content: 'Electronics Journal (Artificial Intelligence Section)' }]
+	body: [{ type: 'text', content: 'Electronics Journal (Artificial Intelligence Section)' }]
+};
+var revJourn6 = {
+	title: '',
+	body: [{ type: 'text', content: 'IEEE Transactions on Parallel and Distributed Systems' }]
 };
 
 var reviews = {
@@ -293,9 +286,9 @@ var reviews = {
 	//icon: 'img/review-icon.png',
         body: [
                 { type: 'text', content: revJournIntro },
-        	{ type: 'list', content: [revJourn1, revJourn2, revJourn3, revJourn4, revJourn5] },
+          { type: 'list', content: [revJourn1, revJourn6, revJourn2, revJourn3, revJourn4, revJourn5] },
 		{ type: 'text', content: pcIntro },
-    	        { type: 'list', content: [pc1, pc2, pc3, pc4, pc5] }	        
+    	        { type: 'list', content: [pc1, pc3, pc4, pc5] }	        
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/

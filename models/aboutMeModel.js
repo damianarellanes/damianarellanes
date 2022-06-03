@@ -1,8 +1,26 @@
-/**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at Lancaster University (UK) where I am also a member of the <a href="https://dslab.lancs.ac.uk/">Distributed Systems Group</a>. Before this, I was a Research Associate in the Department of Computer Science at the University of Manchester, where I obtained a PhD in Computer Science. My research interests center around theoretical foundations of models of emergent computation (esp. self-organising software models).<br/><br/><b>I am currently accepting PhD proposals<b/> in the areas of: (i) Self-Organising Software Models, (ii) Theory of Emergent Computation, (iii) Program Synthesis and/or (iv) Foundational Semantics for Self-Composition/Self-Programming. If you are interested, please email me your CV, academic transcripts and a short research proposal (2-3 pages).';//<br/><p style="color:red">***We have PhD studentships available for UK/International students (covering fees and living expenses)***<p style="color:red">';
+// An element of a list
+/*var varName = {
+	title: 'Full-Stack Software Engineer (2015)',
+	body: [
+		{ type: 'link', ref: 'http://www.ibm.com', content: 'International Business Machines (IBM)' },
+		{ type: 'bold', content: 'TEST1' },
+		{ type: 'italic', content: 'TEST2' },
+		{ type: 'text', content: 'A text...' }
+	]
+};*/
 
-//</b>'
-//var resumeDesc = 'I am a tenure-track Professor in Computer Science at Lancaster University, with a prime focus on autonomic models of computation for the Internet of Things (IoT). To date, I have developed an algebraic programming model for the compositional construction of service-oriented IoT systems. This model, known as DX-MAN, underlies the principles of a workflow variability theory which allows the autonomic evolution of software behaviour at run-time (under highly dynamic contexts). The current state of the model derived a startup business proposal that won the Nick Sanders Kickstarter Fund (Masood Enterprise Centre) and the second prize in the Next Big Thing competition (Manchester, UK). It also won the Best Paper Award at the International Conference on Internet of Things (ICIOT 2018) and was the runner-up for the Carole Goble Medal (The University of Manchester).'
+// A section declaration
+/*var varName = {
+	title: 'Section title',
+	icon: 'a/path/icon.png',
+	body: [
+		{ type: 'text', content: textVariable },
+		{ type: 'list', content: [elementVariable1, elementVariable2, ..., elementVariableN] }
+	]
+};*/ 
+
+/**************************** RESUME ****************************/
+var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK). Before joining Lancaster, I was a Research Associate in the Department of Computer Science from the University of Manchester, where I obtained a PhD in Computer Science in 2020.'//<br/><br/>I am currently accepting PhD proposals in the areas of: (i) Theory of Emergent/Self-Organising Computation, (ii) Program Synthesis and/or (iii) Foundational Semantics for Self-Composition. If you are interested, please email me your CV, academic transcripts and a short research proposal (2-3 pages).';//<br/><p style="color:red">***We have PhD studentships available for UK/International students (covering fees and living expenses)***<p style="color:red">';
 
 var resume = { 
 	title: '',
@@ -13,4 +31,64 @@ var resume = {
 };
 /**************************** END: RESUME ****************************/
 
+
+/**************************** TEACHING EXPERIENCE ****************************/
+var teachingLancaster = 'As an Associate Fellow of the Higher Education Academy (AFHEA), I am currently delivering the following computer science modules at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a>:';
+var teaching1 = {
+	title: 'CNSCC212: Advanced Programming (BSc course)',
+	body: [
+		{ type: 'text', content: 'Summer Term' }
+	]
+};
+var teaching2 = {
+	title: 'CNSCC363: Security and Risk (BSc course)',
+	body: [
+		{ type: 'text', content: 'Summer Term' }
+	]
+};
+
+var teaching = {
+	title: 'Teaching',
+	//icon: 'img/teaching-icon.png',
+	body: [
+                { type: 'text', content:teachingLancaster },
+          { type: 'list', content: [teaching1, teaching2] }
+	]
+};
+/**************************** END: TEACHING EXPERIENCE ****************************/
+
+
+/**************************** INNOVATION SOFTWARE ****************************/
+var innovationDesc = 'I have developed three pieces of innovation software whose Intelectual Property Rights have been transferred.';
+var i1 = {
+	title: 'PPROVigi Web',
+	body: [
+		{ type: 'text', content: 'Registration number: 03-2014-081312252200-01' },
+         	{ type: 'text', content: 'Country: Mexico' }
+	]
+};
+var i2 = {
+	title: 'PPROVigi Android',
+	body: [
+		{ type: 'text', content: 'Registration number: 03-2014-081312295500-01' },
+		{ type: 'text', content: 'Country: Mexico' }
+	]
+};  
+var i3 = {
+	title: 'PPROVigi iOS',
+	body: [
+		{ type: 'text', content: 'Registration number: 03-2014-081312320600-01' },
+		{ type: 'text', content: 'Country: Mexico' }
+	]
+};
+
+var innovationSoftware = {
+	title: 'Patents and Copyrights',
+	//icon: 'img/innovation-icon.png',
+	body: [
+		{ type: 'text', content: innovationDesc },
+		{ type: 'list', content: [i1, i2, i3] }
+	]
+};
+/**************************** END: INNOVATION SOFTWARE ****************************/
 
