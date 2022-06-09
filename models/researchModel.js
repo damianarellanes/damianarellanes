@@ -119,7 +119,8 @@ var pubs = {
 	title: 'Refereed Articles in Journals and in Conference Proceedings',
 	//icon: 'img/publications-icon.png',
 	body: [
-	  { type: 'list', listType: 'ul', content: [pub13, pub12, pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  //{ type: 'list', listType: 'ul', content: [pub13, pub12, pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  { type: 'text', content: 'The list of previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' }
 	]
 };
 var journalPubs = {
@@ -213,7 +214,7 @@ var theses = {
 /****************************** END: THESES ******************************/
 
 /**************************** REVIEW COMMITTEE ****************************/
-var pcIntro = '<b>Programme Committee Member</b>';
+var pcIntro = 'Programme Committee Member: UCC\'20, FACS\'19, SEFM\'18, SEFM\'16.';
 var pc1 = {
 	title: '',
 	body: [
@@ -255,7 +256,9 @@ var pc5 = {
 	]
 };
 
-var revJournIntro = '<b>Journal Reviewer</b>';
+var revInvited = 'Invited Reviewer: ICECCS\'19, CONCUR\'18, ICECCS\'18, ICECCS\'17, ICECCS\'16.'
+
+var revJournIntro = 'Journal Reviewer: IEEE TSC, IEEE TPDS.';
 var revJourn1 = {
 	title: '',
 	body: [{ type: 'text', content: 'IEEE Transactions on Services Computing' }]
@@ -286,9 +289,8 @@ var reviews = {
 	//icon: 'img/review-icon.png',
         body: [
                 { type: 'text', content: revJournIntro },
-          { type: 'list', content: [revJourn1, revJourn6, revJourn2, revJourn3, revJourn4, revJourn5] },
-		{ type: 'text', content: pcIntro },
-    	        { type: 'list', content: [pc1, pc3, pc4, pc5] }	        
+    	        { type: 'text', content: pcIntro },  
+		{ type: 'text', content: revInvited }
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
