@@ -284,13 +284,16 @@ var revJourn6 = {
 	body: [{ type: 'text', content: 'IEEE Transactions on Parallel and Distributed Systems' }]
 };
 
+var orgIntro = 'Co-Organiser: IEEE ACSOS\'22 (UK Edition).';
+
 var reviews = {
 	title: 'Professional Services',
 	//icon: 'img/review-icon.png',
         body: [
                 { type: 'text', content: revJournIntro },
     	        { type: 'text', content: pcIntro },  
-		{ type: 'text', content: revConf }
+	        { type: 'text', content: revConf },
+	        { type: 'text', content: orgIntro }
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
