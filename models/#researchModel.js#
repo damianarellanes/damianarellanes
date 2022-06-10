@@ -142,7 +142,7 @@ var opub1 = {
 	title: '',
 	body: [
 		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</span>. ArXiv e-prints, arXiv:2108.05402, 2021.'},
-	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf"><u>preprint</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
+	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/abs/2108.05402"><u>preprint</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
 	]
 };
 var opub2 = {
@@ -284,7 +284,7 @@ var revJourn6 = {
 	body: [{ type: 'text', content: 'IEEE Transactions on Parallel and Distributed Systems' }]
 };
 
-var orgIntro = 'Co-Organiser: IEEE ACSOS\'22 (UK Edition).';
+var orgIntro = 'Co-Organiser: ACSOS\'22 (UK Edition).';
 
 var reviews = {
 	title: 'Professional Services',
