@@ -256,7 +256,7 @@ var pc5 = {
 	]
 };
 
-var revInvited = 'Invited Reviewer: ICECCS\'19, CONCUR\'18, ICECCS\'18, ICECCS\'17, ICECCS\'16.'
+var revConf = 'Conference Reviewer: ICECCS\'19, CONCUR\'18, ICECCS\'18, ICECCS\'17, ICECCS\'16.'
 
 var revJournIntro = 'Journal Reviewer: IEEE TSC, IEEE TPDS.';
 var revJourn1 = {
@@ -290,7 +290,7 @@ var reviews = {
         body: [
                 { type: 'text', content: revJournIntro },
     	        { type: 'text', content: pcIntro },  
-		{ type: 'text', content: revInvited }
+		{ type: 'text', content: revConf }
 	]
 };
 /**************************** END: REVIEW COMMITTEE ****************************/
