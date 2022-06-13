@@ -284,7 +284,7 @@ var revJourn6 = {
 	body: [{ type: 'text', content: 'IEEE Transactions on Parallel and Distributed Systems' }]
 };
 
-var orgIntro = 'Co-Organiser: IEEE ACSOS\'22 (UK Edition).';
+var orgIntro = 'Co-Organiser: IEEE ACSOS-UK\'22.';
 
 var reviews = {
 	title: 'Professional Services',
