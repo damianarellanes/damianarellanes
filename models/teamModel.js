@@ -94,10 +94,17 @@ var bsc3 = {
 	]
 };
 var bsc4 = {
-	title: 'Boning Li (Expected 2022)',
+	title: 'Boning Li (2022)',
   body: [
                 { type: 'text', content: 'Lancaster University' },
                 { type: 'text', content: 'Thesis: <i>Implementing a Universal Turing Machine in Cellular Automata<\i>' }
+	]
+};
+var bsc5 = {
+	title: 'Yutong Wang (Expected 2023)',
+  body: [
+                { type: 'text', content: 'Lancaster University' },
+                { type: 'text', content: 'Thesis: <i>Exploring Neighbourhoods in Self-Organising Software Models<\i>' }
 	]
 };
 /**************************** END: BSc ****************************/
@@ -105,6 +112,6 @@ var bsc4 = {
 var teamBsc = {
 	title: 'BSc Students',
 	body: [
-	  { type: 'list', content: [bsc4,bsc1] }
+	  { type: 'list', content: [bsc5,bsc4,bsc1] }
 	]
 };

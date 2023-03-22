@@ -20,7 +20,7 @@
 };*/ 
 
 /**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK). Before joining Lancaster, I was a Research Associate in the Department of Computer Science from the University of Manchester, where I obtained a PhD in Computer Science in 2020.'//<br/><br/>I am currently accepting PhD proposals in the areas of: (i) Theory of Emergent/Self-Organising Computation, (ii) Program Synthesis and/or (iii) Foundational Semantics for Self-Composition. If you are interested, please email me your CV, academic transcripts and a short research proposal (2-3 pages).';//<br/><p style="color:red">***We have PhD studentships available for UK/International students (covering fees and living expenses)***<p style="color:red">';
+var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK) and a member of the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a>. Before joining Lancaster, I was a Research Associate in the Department of Computer Science from the University of Manchester, where I obtained a PhD in Computer Science in 2020.<br/><br/>I am currently accepting PhD proposals in the areas of: (i) Theory of Emergent/Self-Organising Computation, (ii) Program Synthesis and/or (iii) Foundational Semantics for Automatic Composition. If you are interested, please email me your CV, academic transcripts and a short research proposal (2-3 pages).<br/><p style="color:red">***We have PhD studentships available for UK/International students (covering fees and living expenses)***<p style="color:red">';
 
 var resume = { 
 	title: '',
@@ -33,7 +33,7 @@ var resume = {
 
 
 /**************************** TEACHING EXPERIENCE ****************************/
-var teachingLancaster = 'As an Associate Fellow of the Higher Education Academy (AFHEA), I am currently delivering the following computer science modules at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a>:';
+var teachingLancaster = 'As a Fellow of the Higher Education Academy (AFHEA), I am currently delivering the following computer science modules at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a>:';
 var teaching1 = {
 	title: 'CNSCC212: Advanced Programming (BSc course)',
 	body: [
