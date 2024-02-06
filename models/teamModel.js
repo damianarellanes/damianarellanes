@@ -1,10 +1,10 @@
 /**************************** PhD ****************************/
 var phd1 = {
-	title: 'Giulio Filippi (2021-Present)',
+	title: 'Mina Yavari (Expected 2027)',
         body: [
                 { type: 'text', content: 'Lancaster University' },
-          { type: 'text', content: 'Thesis: <i>Fractal Automaton<\i>' },
-                { type: 'text', content: 'Previously: University of Cambridge (BA in Pure Mathematics) and University College London (MSc in Machine Learning)' }
+          { type: 'text', content: 'Thesis: <i>Dynamic Reconfiguration of Algebraic Compositions<\i>' },
+                { type: 'text', content: '' }
 	]
 };
 var teamPhD = {
@@ -73,38 +73,31 @@ var teamMsc = {
 
 /**************************** BSc ****************************/
 var bsc1 = {
-	title: 'Shicheng Yang (2021)',
-  body: [
-                { type: 'text', content: 'Lancaster University' },
-                { type: 'text', content: 'Thesis: <i>Development of IoT Workflows Triggered by Voice Commands<\i>' }
-	]
-};
-var bsc2 = {
-	title: 'Zhengtong Liu (2021)',
-  body: [
-                { type: 'text', content: 'Lancaster University' },
-                { type: 'text', content: 'Thesis: <i>Dynamic Visualisation of IoT Workflows<\i>' }
-	]
-};
-var bsc3 = {
-	title: 'Wang Yirun (2021)',
-  body: [
-                { type: 'text', content: 'Lancaster University' },
-                { type: 'text', content: 'Thesis: <i>Stream Processing as a Service with Automatic KPI Anomaly Detection and Root Cause Localisation<\i>' }
-	]
-};
-var bsc4 = {
 	title: 'Boning Li (2022)',
   body: [
                 { type: 'text', content: 'Lancaster University' },
                 { type: 'text', content: 'Thesis: <i>Implementing a Universal Turing Machine in Cellular Automata<\i>' }
 	]
 };
-var bsc5 = {
-	title: 'Yutong Wang (Expected 2023)',
+var bsc2 = {
+	title: 'Yutong Wang (2023)',
   body: [
                 { type: 'text', content: 'Lancaster University' },
                 { type: 'text', content: 'Thesis: <i>Exploring Neighbourhoods in Self-Organising Software Models<\i>' }
+	]
+};
+var bsc3 = {
+	title: 'Muge Liu (2023)',
+  body: [
+                { type: 'text', content: 'Lancaster University' },
+                { type: 'text', content: 'Thesis: <i>An Unambiguous Context-Free Grammar for an Algebraic Component Model<\i>' }
+	]
+};
+var bsc4 = {
+	title: 'Chang Liu (2023)',
+  body: [
+                { type: 'text', content: 'Lancaster University' },
+                { type: 'text', content: 'Thesis: <i>Deploying and Executing Algebraic IoT Systems<\i>' }
 	]
 };
 /**************************** END: BSc ****************************/
@@ -112,6 +105,6 @@ var bsc5 = {
 var teamBsc = {
 	title: 'BSc Students',
 	body: [
-	  { type: 'list', content: [bsc5,bsc4,bsc1] }
+	  { type: 'list', content: [bsc3,bsc4,bsc2,bsc1] }
 	]
 };

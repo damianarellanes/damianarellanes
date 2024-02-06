@@ -1,7 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-//I am interested in the following questions:<br/><br/><img src="img/questions.png" width="80%" height="80%" />
-var researchInterestsDesc = 'My research is in the broad area of <b>Theoretical Computer Science</b>, with a specific focus on the theoretical foundations of <b>algebraic compositionality</b>.<br/><br/>During my research journey, I have discovered the notion of workflow spaces which allow the algebraic construction of variable control-flow-based computations. With the foundations of self-organisation, I have <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">shown</a> that complex spaces of sequential programs can emerge from simple rules in the form of abstract categories. More recently, I started to develop a <a target="_blank" href="https://arxiv.org/pdf/2206.01694.pdf">single-sorted algebra</a> of computon spaces which can be seen as abstract structures that encapsulate a potentially infinite number of computations.';
-//var researchInterestsDesc = 'My search is in the broad area of <b>Theoretical Computer Science</b> and it is primarily aimed at providing theoretical foundations for <b>Self-Composition</b> by exploring the intersection of program spaces, algebraic semantics, emergence and reduction.<br/><br/><img src="img/context.png" width="100%" height="100%" /><br/><br/><b>Program spaces</b> are abstract structures that define a potentially infinite number of abstract computing devices (i.e., programs). In this line, I am particularly interested in defining algebraic semantics for such spaces as well as understanding their emergence and reduction limits.<br/><br/>During my search journey, I have discovered the notion of workflow spaces which allow the algebraic construction of variable control-flow-based computations. With the foundations of self-organisation, I have <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">shown</a> that complex spaces of sequential programs can emerge from simple rules in the form of abstract categories. More recently, I started to develop a <a target="_blank" href="https://arxiv.org/pdf/2206.01694.pdf">single-sorted algebra</a> of computon spaces which can be seen as morphisms that generalise the notion of control-flow composition.';
+var researchInterestsDesc = 'My research is in the broad area of <b>Theoretical Computer Science</b>, with a specific focus on the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">this paper</a>.<br/><br/>As part of my research programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have also <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">shown</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I have developed a <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">category-theoretic model</a> for describing high-level control-driven computations.';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -142,22 +140,32 @@ var conferencePubs = {
 var opub1 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</span>. ArXiv e-prints, arXiv:2108.05402, 2021.'},
-	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf"><u>preprint</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210805402A/exportcitation"><u>bib</u></a>'}
+		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>, arXiv:2108.05402, 2021.'}
 	]
 };
 var opub2 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <span style="color:#000a56">Towards an Algebra of Computon Spaces</span>. ArXiv e-prints, arXiv:2206.01694, 2022.'},
-	        {type: 'text', content: '<a target="_blank" href="https://arxiv.org/pdf/2206.01694.pdf"><u>preprint</u></a>&nbsp;&nbsp;<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220601694A/exportcitation"><u>bib</u></a>'}
+		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2206.01694.pdf">Towards an Algebra of Computon Spaces</a>, arXiv:2206.01694, 2022.'}
+	]
+};
+var opub3 = {
+	title: '',
+	body: [
+		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2023.'}
+	]
+};
+var opub4 = {
+	title: '',
+	body: [
+		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">Models of High-Level Computation</a>, arXiv:2309.06397, 2024.'}
 	]
 };
 
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	  { type: 'list', listType: 'ul', content: [opub2,opub1] }
+	  { type: 'list', listType: 'ul', content: [opub4,opub3,opub2,opub1] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/

@@ -32,7 +32,7 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
     $stateProvider    	    	
         .state('aboutMe', aboutMe)
         //.state('research', research)  
-        .state('personal', personal)
+        //.state('personal', personal)
         .state('awards', awards)
         .state('team', team);
 }]);
