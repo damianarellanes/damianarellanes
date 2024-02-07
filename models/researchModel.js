@@ -1,9 +1,8 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'My research is in the broad area of <b>Theoretical Computer Science</b>, with a specific focus on the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">this paper</a>.<br/><br/>As part of my research programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have also <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">shown</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I have developed a <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">category-theoretic model</a> for describing high-level control-driven computations.';
+var researchInterestsDesc = 'My research is in the broad area of <b>Theoretical Computer Science</b>, with specific focus on the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">this paper</a>.<br/><br/>As part of my research programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have also <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">shown</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I developed a <a target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">category-theoretic model</a> for describing high-level control-driven computations.';
 
 var researchInterests = {
 	title: 'Research Interests',
-	//icon: 'img/research-icon.png',
 	body: [
 	  { type: 'text', content: researchInterestsDesc }
 	]
@@ -22,7 +21,6 @@ var talk1 = {
 
 var talks = {
 	title: 'Keynotes',
-	//icon: 'img/talks-icon.png',
 	body: [
 	    { type: 'list', listType: 'ul', content: [talk1] }
 	]
@@ -116,7 +114,6 @@ var pub13 = {
 
 var pubs = {
 	title: 'Refereed Articles in Journals and in Conference Proceedings',
-	//icon: 'img/publications-icon.png',
 	body: [
 	  //{ type: 'list', listType: 'ul', content: [pub13, pub12, pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	  { type: 'text', content: 'The list of my previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' }
@@ -140,25 +137,25 @@ var conferencePubs = {
 var opub1 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>, arXiv:2108.05402, 2021.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>, arXiv:2108.05402, 2021.'}
 	]
 };
 var opub2 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2206.01694.pdf">Towards an Algebra of Computon Spaces</a>, arXiv:2206.01694, 2022.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2206.01694.pdf">Towards an Algebra of Computon Spaces</a>, arXiv:2206.01694, 2022.'}
 	]
 };
 var opub3 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2023.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2023.'}
 	]
 };
 var opub4 = {
 	title: '',
 	body: [
-		{type: 'text', content: '<b>Damian Arellanes</b>. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">Models of High-Level Computation</a>, arXiv:2309.06397, 2024.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">Models of High-Level Computation</a>, arXiv:2309.06397, 2024.'}
 	]
 };
 
@@ -189,7 +186,6 @@ var poster2 = {
 };
 var posters = {
 	title: 'Posters',
-	//icon: 'img/posters-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [poster2, poster1] }
 	]
@@ -215,7 +211,6 @@ var thesis2 = {
 };
 var theses = {
 	title: 'Theses',
-	//icon: 'img/theses-icon.png',
 	body: [
 	  { type: 'list', listType: 'ul', content: [thesis2, thesis1] }
 	]
@@ -297,7 +292,6 @@ var orgIntro = 'Co-Organiser: IEEE ACSOS-UK\'22.';
 
 var reviews = {
 	title: 'Professional Services',
-	//icon: 'img/review-icon.png',
         body: [
                 { type: 'text', content: revJournIntro },
     	        { type: 'text', content: pcIntro },  

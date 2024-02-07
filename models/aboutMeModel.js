@@ -20,7 +20,7 @@
 };*/ 
 
 /**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK) and a member of the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a> in the Fundamentals Section. Before joining Lancaster, I was a Research Associate in the Department of Computer Science from the University of Manchester, where I obtained a PhD in Computer Science in 2020.<br/><br/>I am currently accepting PhD proposals in the areas of: (i) Theory of Emergent/Self-Organising Computation, (ii) Algebraic Semantics for Models of High-Level Computation and/or (iii) Automatic Software Composition. Other areas can be of interest to me. Feel free to contact me by emailing me your CV, academic transcripts and a short research proposal (2-3 pages).';
+var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK) and a member of the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a> in the Fundamentals Section. Before joining Lancaster, I was a Research Associate in the Department of Computer Science from the University of Manchester, where I obtained a PhD in Computer Science in 2020.';
 
 var resume = { 
 	title: '',
