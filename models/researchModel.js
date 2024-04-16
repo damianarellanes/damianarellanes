@@ -137,7 +137,7 @@ var conferencePubs = {
 var opub1 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>, arXiv:2108.05402, 2021.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>, arXiv:2108.05402, 2024.'}
 	]
 };
 var opub2 = {
@@ -162,7 +162,7 @@ var opub4 = {
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	  { type: 'list', listType: 'ul', content: [opub4,opub3,opub2,opub1] }
+	  { type: 'list', listType: 'ul', content: [opub1,opub4,opub3,opub2] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/
