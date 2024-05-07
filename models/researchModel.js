@@ -137,7 +137,7 @@ var conferencePubs = {
 var opub1 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2108.05402.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>, arXiv:2108.05402, 2024.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="papers/Composition_Machines.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>. To appear in Proceedings of the 18th Symposium on Theoretical Aspects of Software Engineering (TASE), 2024.'}
 	]
 };
 var opub2 = {
