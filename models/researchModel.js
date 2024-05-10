@@ -115,7 +115,7 @@ var pub13 = {
 var pubs = {
 	title: 'Refereed Articles in Journals and in Conference Proceedings',
 	body: [
-	  //{ type: 'list', listType: 'ul', content: [pub13, pub12, pub11, pub10, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	  //{ type: 'list', listType: 'ul', content: [opub1] },
 	  { type: 'text', content: 'The list of my previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' }
 	]
 };
@@ -149,7 +149,7 @@ var opub2 = {
 var opub3 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2023.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2024.'}
 	]
 };
 var opub4 = {
@@ -162,7 +162,7 @@ var opub4 = {
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	  { type: 'list', listType: 'ul', content: [opub1,opub4,opub3,opub2] }
+	  { type: 'list', listType: 'ul', content: [opub1,opub3,opub4,opub2] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/
