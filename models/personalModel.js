@@ -15,36 +15,18 @@ var personalIntro = {
 
 
 /**************************** MUSIC ****************************/
-var music1 = {
-	size: '', 
-	classes: '',
-	columns: [
-		{ size: 'sm-8', classes: '', content: 
-		  '<p>My three major interests oscillate around the notion of the platonic world of ideas: Computer Science, Philosophy and Music. </p>' 
-		} 
-	]
-};
-var music2 = {
-	size: '', 
-	classes: '',
-	columns: [
-		{ size: 'sm-7', classes: '', content: 
-		  '<p>To date, I have composed a number of musical pieces for multiple instruments. As I am interested in the so-called music of the spheres, in one of my songs I introduced sounds captured by NASA’s Voyager 1 -- e.g., listen to <a href="https://www.youtube.com/watch?v=e2yklb69deg"> Euclidaeum Ténebris (Pt. 1)</a>.</p>' 
-		}
-	]
-};
+var music1 = '<p>My major passions converge at the intersection of three profound domains related to the platonic world of ideas: Philosophy, Computation and Music. I believe the elements of this triad enrich each other in a harmonious interplay of thought and expression. </p>' ;
+var music2 = '<p>Although I only play piano and guitar, to date I have composed a number of musical pieces that encompass multiple instruments. My fascination with the ancient concept of "music of the spheres" has led me to incorporate celestial sounds into my work, e.g., in <a target="_blank" href="https://www.youtube.com/watch?v=e2yklb69deg"> Euclidaeum Ténebris (Pt. 1)</a>.</p>';
 var music3 = 
-    'Previously, I use to compose and play in a number of bands. My latest band is <a href="https://naicametal.bandcamp.com/track/agenda-mmxxx">NAICA</a>, an extreme metal band from Mexico City. I used to play the keyboard/synthesiser in an experimental band, but I decided to leave it to dedicate more time to my own music and my science projects. I do really love works by Debussy, Bach and Rachmaninov, e.g., one of my favourite pieces is the concerto for Piano and Orchestra No.3 (also called Rach 3 ) by Rachmaninov. When I was studying classical piano, I enjoyed playing works by Mozart and Bach. In my last performance, I played the K.545 Sonata by Wolfgang Amadeus Mozart. But I definitely prefer to compose my own music :)';
-var music4 = 
-		'I have some experience in commercial software development. However, I feel more attracted to science due to its limitless nature. I believe creativity is much more important than logic, and that the only limit can be our imagination. Perhaps we are the whole Universe even though we think we are just a Universe\'s component. As I have a lot of ideas in my mind that I want to materialise, I am convinced that I will dedicate the rest of my life to my real passion: science.';
+    'In the past, I used to compose and play for a number of bands. My last band was <a target="_blank" href="https://naicametal.bandcamp.com/track/loud-sighs-2">NAICA</a>, an extreme metal band with influences bordering on djent, prog and shred.';
 
 var music = {
 	title: 'Music',
 	//icon: 'img/music-icon.png',
 	body: [
-		{ type: 'multi-column', content: [music1, music2] },
+	    { type: 'text', content: music1 },
+	    { type: 'text', content: music2 },
 		{ type: 'text', content: music3 }
-		//{ type: 'text', content: music4 }
 	]
 };
 /**************************** END: MUSIC ****************************/
