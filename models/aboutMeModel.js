@@ -20,7 +20,7 @@
 };*/ 
 
 /**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK) and a member of the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a> in the Fundamentals Section. Before joining Lancaster, I was a Research Associate in the Department of Computer Science from the University of Manchester, where I obtained a PhD in Computer Science in 2020.';
+var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK) and a member of the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a> in the Fundamentals Section. Before joining Lancaster, I was a Research Associate in the Department of Computer Science at the University of Manchester, where I also obtained a PhD in Computer Science in 2020.';
 
 var resume = { 
 	title: '',

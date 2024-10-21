@@ -1,5 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'My work is within the realm of <b>Theoretical Computer Science</b>, a mesmerizing field that adheres to principles of mathematical rigour with the aim of laying the foundations of computer science. I am particularly interested in uncovering/extracting the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">this paper</a>.<br/><br/>As part of my scientific programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have <a target="_blank" href="papers/Composition_Machines.pdf">demonstrated</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I discovered a <a target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">category-theoretic model</a> for describing high-level control-driven computations (in a compositional setting) with well-defined algebraic operators built upon colimit semantics.'//<br/><br/>By delving into the realm of Theoretical Computer Science, I aim to push the boundaries of our understanding of computation and lay the groundwork for future advancements in the field. Through my research, I hope to contribute to the ongoing quest for a deeper comprehension of the fundamental principles that underlie the world of computation. In this industry-dominated world, we should not forget that there is no practice without foundations. My work is not career-focused but scientific minded!';
+var researchInterestsDesc = 'My work is in the realm of <b>Theoretical Computer Science</b>, a field that adheres to principles of mathematical rigour with the aim of laying the foundations of computer science. I am particularly interested in uncovering/extracting the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">this paper</a>.<br/><br/>As part of my scientific programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have <a target="_blank" href="papers/Composition_Machines.pdf">demonstrated</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I discovered a <a target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">category-theoretic model</a> for describing high-level control-driven computations (in a compositional setting) with well-defined algebraic operators built upon colimit semantics.'//<br/><br/>By delving into the realm of Theoretical Computer Science, I aim to push the boundaries of our understanding of computation and lay the groundwork for future advancements in the field. Through my research, I hope to contribute to the ongoing quest for a deeper comprehension of the fundamental principles that underlie the world of computation. In this industry-dominated world, we should not forget that there is no practice without foundations. My work is not career-focused but scientific minded!';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -112,13 +112,6 @@ var pub13 = {
 	]
 };
 
-var pubs = {
-	title: 'Refereed Articles in Journals and in Conference Proceedings',
-	body: [
-	  //{ type: 'list', listType: 'ul', content: [opub1] },
-	  { type: 'text', content: 'The list of my previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' }
-	]
-};
 var journalPubs = {
 	title: 'Refereed Articles in Journals',
 	body: [
@@ -137,7 +130,7 @@ var conferencePubs = {
 var opub1 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="papers/Composition_Machines.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>. To appear in Proceedings of the 18th Symposium on Theoretical Aspects of Software Engineering (TASE), 2024.'}
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="papers/Composition_Machines.pdf">Composition Machines: Programming Self-Organising Software Models for the Emergence of Sequential Program Spaces</a>. In Proceedings of the 18th Symposium on Theoretical Aspects of Software Engineering (TASE), 2024.'}
 	]
 };
 var opub2 = {
@@ -162,7 +155,14 @@ var opub4 = {
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	  { type: 'list', listType: 'ul', content: [opub1,opub3,opub4,opub2] }
+	  { type: 'list', listType: 'ul', content: [opub3,opub4,opub2] }
+	]
+};
+var pubs = {
+	title: 'Refereed Articles in Journals and in Conference Proceedings',
+	body: [
+	    { type: 'text', content: 'A list of my previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' },
+	    { type: 'list', listType: 'ul', content: [opub1] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/

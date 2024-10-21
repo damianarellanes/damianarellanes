@@ -15,8 +15,8 @@ var personalIntro = {
 
 
 /**************************** MUSIC ****************************/
-var music1 = '<p>My major passions converge at the intersection of three profound domains related to the platonic world of ideas: Philosophy, Computation and Music. I believe the elements of this triad enrich each other in a harmonious interplay of thought and expression. </p>' ;
-var music2 = '<p>Although I only play piano and guitar, to date I have composed a number of musical pieces that encompass multiple instruments. My fascination with the ancient concept of "music of the spheres" has led me to incorporate celestial sounds into my work, e.g., in <a target="_blank" href="https://www.youtube.com/watch?v=e2yklb69deg"> Euclidaeum Ténebris (Pt. 1)</a>.</p>';
+var music1 = '<p>My major passions converge at the intersection of three profound domains related to the platonic world of ideas: Philosophy, Computation and Music. </p>' ;
+var music2 = '<p>Although I only play piano and guitar, to date I have composed a number of musical pieces that encompass multiple instruments (from drums to ensemble of strings). My fascination with the ancient concept of "music of the spheres" has led me to incorporate celestial sounds into my work, e.g., in <a target="_blank" href="https://www.youtube.com/watch?v=e2yklb69deg"> Euclidaeum Ténebris (Pt. 1)</a>.</p>';
 var music3 = 
     'In the past, I used to compose and play for a number of bands. My last band was <a target="_blank" href="https://naicametal.bandcamp.com/track/loud-sighs-2">NAICA</a>, an extreme metal band with influences bordering on djent, prog and shred.';
 
