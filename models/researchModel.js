@@ -148,7 +148,7 @@ var opub3 = {
 var opub4 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">Models of High-Level Computation</a>, arXiv:2309.06397, 2024.'}
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">Models of High-Level Computation</a>. Frontiers in Computer Science, 2025.'}
 	]
 };
 
