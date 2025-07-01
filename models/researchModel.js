@@ -1,5 +1,5 @@
 /**************************** RESEARCH INTERESTS ****************************/
-var researchInterestsDesc = 'My work lies within the realm of <b>Theoretical Computer Science</b>, a field that adheres to principles of mathematical rigour with the aim of laying the foundations of computer science. I am particularly interested in uncovering/extracting the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">this paper</a>.<br/><br/>As part of my scientific programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have <a target="_blank" href="papers/Composition_Machines.pdf">demonstrated</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I discovered a <a target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">category-theoretic model</a> for describing high-level control-driven computations (in a compositional setting) with well-defined algebraic operators built upon colimit semantics<br/><br/>My work on algebraic models has found applications in Software Engineering for supporting the compositional construction of complex software systems via algebraic operators. In this regard, I have demonstrated that these operators can enable the automatic synthesis, transformation and adaptation of software at the model-level, particularly in dynamic and distributed environments such as the Internet of Things.'//<br/><br/>By delving into the realm of Theoretical Computer Science, I aim to push the boundaries of our understanding of computation and lay the groundwork for future advancements in the field. Through my research, I hope to contribute to the ongoing quest for a deeper comprehension of the fundamental principles that underlie the world of computation. In this industry-dominated world, we should not forget that there is no practice without foundations. My work is not career-focused but scientific minded!';
+var researchInterestsDesc = 'My work lies within the realm of <b>Theoretical Computer Science</b>, a field that adheres to principles of mathematical rigour with the aim of laying the foundations of computer science. I am particularly interested in uncovering/extracting the theoretical foundations of <b>Algebraic Composition</b> for <b>Models of High-Level Computation</b>. For an accessible introduction to such models, see <a target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">this paper</a>.<br/><br/>As part of my scientific programme, I have previously discovered the notion of workflow spaces for algebraically constructing variable control-driven computations. With the foundations of cellular automata and category theory, I have <a target="_blank" href="papers/Composition_Machines.pdf">demonstrated</a> that complex spaces of sequential computations can emerge from simple rules in the form of abstract categories. More recently, I discovered a <a target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">category-theoretic model</a> for describing high-level control-driven computations (in a compositional setting) with well-defined algebraic operators built upon colimit semantics. This model has been proved to be more computationally powerful than Turing machines in the non-uniform setting.<br/><br/>My work on algebraic models has found applications in Software Engineering for supporting the compositional construction of complex software systems via algebraic operators. In this regard, I have demonstrated that these operators can enable the automatic synthesis, transformation and adaptation of software at the model-level, particularly in dynamic and distributed environments such as the Internet of Things.'//<br/><br/>By delving into the realm of Theoretical Computer Science, I aim to push the boundaries of our understanding of computation and lay the groundwork for future advancements in the field. Through my research, I hope to contribute to the ongoing quest for a deeper comprehension of the fundamental principles that underlie the world of computation. In this industry-dominated world, we should not forget that there is no practice without foundations. My work is not career-focused but scientific minded!';
 
 var researchInterests = {
 	title: 'Research Interests',
@@ -142,7 +142,7 @@ var opub2 = {
 var opub3 = {
 	title: '',
 	body: [
-		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2024.'}
+		{type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>, arXiv:2309.06397, 2023.'}
 	]
 };
 var opub4 = {
@@ -151,11 +151,17 @@ var opub4 = {
 	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2402.02602.pdf">Models of High-Level Computation</a>. Frontiers in Computer Science, 2025.'}
 	]
 };
+var opub5 = {
+	title: '',
+	body: [
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2506.22687">Compositional Control-Driven Boolean Circuits</a>, arXiv:2506.22687, 2025.'}
+	]
+};
 
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	  { type: 'list', listType: 'ul', content: [opub3,opub2] }
+	    { type: 'list', listType: 'ul', content: [opub5,opub3,opub2] }
 	]
 };
 var pubs = {
