@@ -22,19 +22,19 @@ myWebsite.config(['$stateProvider', function ($stateProvider) {
         url: '/awards',
         templateUrl: 'views/Awards.html',
         controller: 'awardsCtrl'
-    },
-    team = {
+    };
+    /*team = {
         url: '/team',
         templateUrl: 'views/Team.html',
         controller: 'teamCtrl'
-    };
+    };*/
 	
     $stateProvider    	    	
         .state('aboutMe', aboutMe)
         //.state('research', research)  
         .state('personal', personal)
-        .state('awards', awards)
-        .state('team', team);
+        .state('awards', awards);
+        //.state('team', team);
 }]);
 
 /* Redirection configuration */
