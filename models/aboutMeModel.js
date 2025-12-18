@@ -20,7 +20,7 @@
 };*/ 
 
 /**************************** RESUME ****************************/
-var resumeDesc = 'I am a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (United Kingdom) and a member of the <a href="https://www.lancaster.ac.uk/scc/research/software-engineering/">Software Engineering Group</a> and the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a> in the Fundamentals Section. Before joining Lancaster, I was a Research Associate in the Department of Computer Science at the University of Manchester, where I obtained a PhD in Computer Science in 2020.';
+var resumeDesc = 'Since 2020, I have been a Lecturer (Assistant Professor) in Computer Science at <a href="https://www.lancaster.ac.uk/scc/">Lancaster University</a> (UK), where I am also leading the <a href="https://www.lancaster.ac.uk/scc/research/systems/theoretical-computer-science/">Theoretical Computer Science Group</a> and am a member of the <a href="https://www.lancaster.ac.uk/lira/research/fundamentals/">Lancaster Centre for Intelligent, Robotic and Autonomous Systems (LIRA)</a> in the Fundamentals Section. Before joining Lancaster, I was a Research Associate in the Department of Computer Science at the University of Manchester, where I obtained a PhD in Computer Science in 2020.';
 
 var resume = { 
 	title: '',
