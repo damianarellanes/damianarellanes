@@ -8,8 +8,8 @@ var n2 = {
     info : 'My introductory <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://www.readcube.com/articles/10.3389/fcomp.2025.1564048">Models of High-level Computation</a> has been accepted for publication in the journal Frontiers of Computer Science.'
 };
 var n3 = {
-        title: 'October 2025',
-    info : 'I am excited to deliver a <b>research seminar</b> at the <a style="color:#000a56" target="_blank" href="http://pplv.cs.ucl.ac.uk/welcome/">PPLV group</a> at <a style="color:#000a56" target="_blank" href="https://www.ucl.ac.uk">UCL</a>, where I will be discussing algebraic composition in Models of High-Level Computation.'
+        title: 'September 2025',
+    info : 'I am excited to deliver a <b>research seminar</b> at the <a style="color:#000a56" target="_blank" href="http://pplv.cs.ucl.ac.uk/welcome/">PPLV group</a> at <a style="color:#000a56" target="_blank" href="https://www.ucl.ac.uk">UCL</a> on October 30, 2025. In this talk, I will be discussing algebraic composition in Models of High-Level Computation.'
 };
 var n4 = {
         title: 'December 2025',
