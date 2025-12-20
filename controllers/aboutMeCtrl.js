@@ -1,6 +1,6 @@
 myWebsite.controller('aboutMeCtrl', function ($scope) {
 	
 	// See models/aboutMeModel
-  $scope.aboutMeSections = [resume, researchInterests, otherPublications, pubs, reviews];
+  $scope.aboutMeSections = [resume, researchInterests, otherPublications, pubs, news];
     
 });

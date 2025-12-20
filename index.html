@@ -17,9 +17,10 @@
 <body>
 	<!-- Angularjs scripts -->
 	<script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
-    <!-- END: Angularjs scripts -->    
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<!-- END: Angularjs scripts -->    
     	
 	<!-- Application -->
 	<div ng-app="myWebsite" ng-controller="myWebsiteCtrl" class="container-fixed">
@@ -54,6 +55,7 @@
     <script src="models/personalModel.js"></script>
     <script src="models/awardsModel.js"></script>
     <script src="models/teamModel.js"></script>
+    <script src="models/newsModel.js"></script>
     <!-- END: Application Models -->
     
     <!-- Application Controllers -->
@@ -72,6 +74,7 @@
     <script src="directives/paragraph-generator.js"></script>
     <script src="directives/section-generator.js"></script>
     <script src="directives/page-generator.js"></script>
+    <script src="directives/news-generator.js"></script>
     <!-- END: Application Directives -->
 </body>
 </html>

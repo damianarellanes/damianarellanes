@@ -1,4 +1,4 @@
-var myWebsite =  angular.module("myWebsite", ['ui.router', 'ngAnimate']);
+var myWebsite =  angular.module("myWebsite", ['ui.router', 'ngAnimate', 'ngSanitize']);
 
 /* States configuration */
 myWebsite.config(['$stateProvider', function ($stateProvider) {

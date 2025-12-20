@@ -1,0 +1,20 @@
+/**************************** NEWS ****************************/
+var news1 = {
+	title: '',
+	body: [
+		{type: 'text', content: 'I am excited to deliver a research seminar at the PPLV group at UCL.'}
+	]
+};
+/*var news = {
+	title: 'Recent News',
+	body: [
+	  { type: 'list', listType: 'ul', content: [news1] }
+	]
+};*/
+var news = {
+	title: 'Recent News',
+        body: [
+                { type: 'text', content: news1 }
+	]
+};
+/**************************** END: NEWS ****************************/

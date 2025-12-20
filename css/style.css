@@ -164,3 +164,21 @@ li > .title, .title {
 .content-section {
 	margin: 20px 0 0 0;
 }
+
+dl {
+    display: grid;
+    font-size: 17px;
+    grid-template-columns: 20% auto;
+    margin-top: 15px;
+
+}
+
+/*dt {
+  grid-column: 1;
+  text-align: right;
+}
+
+dd {
+  grid-column: 3;
+  text-align: left;
+}*/
