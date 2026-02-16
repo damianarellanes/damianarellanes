@@ -15,10 +15,14 @@ var n4 = {
         title: 'December 2025',
     info : 'I am delighted to announce that I will deliver a <b>research seminar</b> at the <a style="color:#000a56" target="_blank" href="https://www.cs.manchester.ac.uk">Department of Computer Science</a> at <a style="color:#000a56" target="_blank" href="https://www.manchester.ac.uk">The University of Manchester</a> on February 4, 2026. In this talk, I will introduce a category-theoretic framework for algebraically composing high-level computing devices.'
 };
+var n5 = {
+        title: 'February 2026',
+    info : 'My <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2506.22687">Compositional Control-Driven Boolean Circuits</a> has been accepted for publication in the Proceedings of the 22nd International Conference on Relational and Algebraic Methods in Computer Science (RAMICS 2026).'
+};
 var news = {
 	title: 'Recent News',
 	body: [
-	    { type: 'news', listType: 'ul', content: [n4, n3, n2, n1] }
+	    { type: 'news', listType: 'ul', content: [n5, n4, n3, n2, n1] }
 	]
 };
 /**************************** END: NEWS ****************************/

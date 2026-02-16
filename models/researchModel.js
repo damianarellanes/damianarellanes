@@ -154,21 +154,21 @@ var opub4 = {
 var opub5 = {
 	title: '',
 	body: [
-	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2506.22687">Compositional Control-Driven Boolean Circuits</a>, arXiv:2506.22687, 2025.'}
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2506.22687">Compositional Control-Driven Boolean Circuits</a>. To appear in Proceedings of the 22nd International Conference on Relational and Algebraic Methods in Computer Science (RAMICS), 2026.'}
 	]
 };
 
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	    { type: 'list', listType: 'ul', content: [opub5,opub3,opub2] }
+	    { type: 'list', listType: 'ul', content: [opub3,opub2] }
 	]
 };
 var pubs = {
 	title: 'Refereed Articles in Journals and in Conference Proceedings',
 	body: [
 	    { type: 'text', content: 'A list of my previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' },
-	    { type: 'list', listType: 'ul', content: [opub4,opub1] }
+	    { type: 'list', listType: 'ul', content: [opub5,opub4,opub1] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/
