@@ -157,11 +157,17 @@ var opub5 = {
 	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2506.22687">Compositional Control-Driven Boolean Circuits</a>. To appear in Proceedings of the 22nd International Conference on Relational and Algebraic Methods in Computer Science (RAMICS), 2026.'}
 	]
 };
+var opub6 = {
+	title: '',
+	body: [
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2602.14904">Colimit-Based Composition of High-Level Computing Devices</a>, arXiv:2602.14904, 2026.'}
+	]
+};
 
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	    { type: 'list', listType: 'ul', content: [opub3,opub2] }
+	    { type: 'list', listType: 'ul', content: [opub6,opub3,opub2] }
 	]
 };
 var pubs = {
