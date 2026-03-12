@@ -19,10 +19,14 @@ var n5 = {
         title: 'February 2026',
     info : 'My <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2506.22687">Compositional Control-Driven Boolean Circuits</a> has been accepted for publication in the Proceedings of the 22nd International Conference on Relational and Algebraic Methods in Computer Science (RAMICS 2026).'
 };
+var n6 = {
+        title: 'March 2026',
+    info : 'I am very happy to announce that my <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397">Compositional Separation of Control Flow and Data Flow</a> has been accepted for publication in the Journal of Logical and Algebraic Methods in Programming.'
+};
 var news = {
 	title: 'Recent News',
 	body: [
-	    { type: 'news', listType: 'ul', content: [n5, n4, n3, n2, n1] }
+	    { type: 'news', listType: 'ul', content: [n6, n5, n4, n3, n2, n1] }
 	]
 };
 /**************************** END: NEWS ****************************/
