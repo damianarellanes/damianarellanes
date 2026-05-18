@@ -21,7 +21,7 @@ var n5 = {
 };
 var n6 = {
         title: 'March 2026',
-    info : 'I am very happy to announce that my <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397">Compositional Separation of Control Flow and Data Flow</a> has been accepted for publication in the Journal of Logical and Algebraic Methods in Programming.'
+    info : 'I am very happy to announce that my <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://authors.elsevier.com/a/1mtMX8MrKMn5ip">Compositional Separation of Control Flow and Data Flow</a> has been accepted for publication in the Journal of Logical and Algebraic Methods in Programming.'
 };
 var news = {
 	title: 'Recent News',

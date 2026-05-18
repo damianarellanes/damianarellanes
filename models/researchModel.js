@@ -143,7 +143,7 @@ var opub2 = {
 var opub3 = {
 	title: '',
 	body: [
-	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397.pdf">Compositional Separation of Control Flow and Data Flow</a>. To appear in Journal of Logical and Algebraic Methods in Programming, 2026.'}
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://authors.elsevier.com/a/1mtMX8MrKMn5ip">Compositional Separation of Control Flow and Data Flow</a>. To appear in Journal of Logical and Algebraic Methods in Programming, 2026.'}
 	]
 };
 var opub4 = {
