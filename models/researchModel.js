@@ -122,7 +122,7 @@ var journalPubs = {
 var conferencePubs = {
 	title: 'Refereed Articles in Conference Proceedings',
 	body: [
-	    { type: 'list', listType: 'ul', content: [pub12, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	    { type: 'list', listType: 'ul', content: [pub12, opub6, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
@@ -161,14 +161,14 @@ var opub5 = {
 var opub6 = {
 	title: '',
 	body: [
-	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2602.14904">Colimit-Based Composition of High-Level Computing Devices</a>, arXiv:2602.14904, 2026.'}
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2602.14904">Colimit-Based Composition of High-Level Computing Devices</a>. To appear in 21st International Symposium on Logical and Semantic Frameworks with Applications (LSFA), affiliated to the 11th International Conference on Formal structures for Computation and Deduction (FSCD) and part of the 9th Federated Logic Conference (FLoC), 2026.'}
 	]
 };
 
 var otherPublications = {
 	title: 'Forthcoming Publications',
 	body: [
-	    { type: 'list', listType: 'ul', content: [opub6,opub2] }
+	    { type: 'list', listType: 'ul', content: [opub2] }
 	]
 };
 var pubs = {
