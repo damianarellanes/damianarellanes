@@ -122,7 +122,7 @@ var journalPubs = {
 var conferencePubs = {
 	title: 'Refereed Articles in Conference Proceedings',
 	body: [
-	    { type: 'list', listType: 'ul', content: [pub12, opub6, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
+	    { type: 'list', listType: 'ul', content: [pub12, pub9, pub8, pub7, pub6, pub5, pub3, pub4, pub1] }
 	]
 };
 /**************************** END: PUBLICATIONS ****************************/
@@ -175,7 +175,7 @@ var pubs = {
 	title: 'Refereed Articles in Journals and in Conference Proceedings',
 	body: [
 	    { type: 'text', content: 'A list of my previous publications is available on <a href="https://scholar.google.com/citations?user=mYm6CDsAAAAJ&hl=en">Google Scholar</a> and <a href="https://dblp.org/pid/173/8097.html">DBLP</a>.' },
-	    { type: 'list', listType: 'ul', content: [opub3,opub5,opub4,opub1] }
+	    { type: 'list', listType: 'ul', content: [opub3,opub6,opub5,opub4,opub1] }
 	]
 };
 /**************************** END: OTHER PUBLICATIONS ****************************/
