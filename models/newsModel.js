@@ -23,10 +23,18 @@ var n6 = {
         title: 'March 2026',
     info : 'I am very happy to announce that my <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2309.06397">Compositional Separation of Control Flow and Data Flow</a> has been accepted for publication in the Journal of Logical and Algebraic Methods in Programming.'
 };
+var n7 = {
+        title: 'May 2026',
+    info : 'I am excited to deliver <b>research seminars</b> for the <a style="color:#000a56" target="_blank" href="https://philcomp.org">Philosophy of Computing group</a> at <a style="color:#000a56" target="_blank" href="https://www.fciencias.unam.mx">UNAM</a> and the <a style="color:#000a56" target="_blank" href="https://wwwcs.cs.cinvestav.mx">Department of Computer Science</a> at <a style="color:#000a56" target="_blank" href="https://www.cinvestav.mx">CINVESTAV-IPN</a> on June 2026. In this talks, I will introduce the computon model.'
+};
+var n8 = {
+        title: 'June 2026',
+    info : 'My <b>paper</b> on <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2602.14904">Colimit-Based Composition of High-Level Computing Devices</a> has been accepted for publication in the Proceedings of the 21st International Symposium on Logical and Semantic Frameworks with Applications (LSFA 2026), part of the 9th Federated Logic Conference (FLoC 2026).'
+};
 var news = {
 	title: 'Recent News',
 	body: [
-	    { type: 'news', listType: 'ul', content: [n6, n5, n4, n3, n2, n1] }
+	    { type: 'news', listType: 'ul', content: [n8, n7, n6, n5, n4, n3, n2, n1] }
 	]
 };
 /**************************** END: NEWS ****************************/
