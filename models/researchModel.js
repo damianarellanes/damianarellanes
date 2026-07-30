@@ -161,7 +161,7 @@ var opub5 = {
 var opub6 = {
 	title: '',
 	body: [
-	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2602.14904">Colimit-Based Composition of High-Level Computing Devices</a>. To appear in 21st International Symposium on Logical and Semantic Frameworks with Applications (LSFA), affiliated to the 11th International Conference on Formal structures for Computation and Deduction (FSCD) and part of the 9th Federated Logic Conference (FLoC), 2026.'}
+	    {type: 'text', content: 'Damian Arellanes. <a style="color:#000a56" target="_blank" href="https://arxiv.org/pdf/2602.14904">Colimit-Based Composition of High-Level Computing Devices</a>. In 21st International Symposium on Logical and Semantic Frameworks with Applications (LSFA), affiliated to the 11th International Conference on Formal structures for Computation and Deduction (FSCD) and part of the 9th Federated Logic Conference (FLoC), 2026.'}
 	]
 };
 
